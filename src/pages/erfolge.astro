@@ -1,0 +1,151 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import { Icon } from 'astro-icon/components';
+
+const categories = [
+  'Alle', 'Automobil & Zulieferer', 'Banken & Versicherung', 'Chemie, Energie & Rohstoffe',
+  'Energieversorger', 'Gesundheitswesen', 'Industrie', 'Konsumgüter & Handel',
+  'Öffentlicher Sektor', 'Sonstiges', 'Telekommunikation', 'Transport & Logistik'
+];
+
+const caseStudies = [
+  { title: 'Nachhaltige und effiziente Optimierung des Kundenservice', category: 'Transport & Logistik' },
+  { title: 'Umfassende Digitalisierung der wichtigsten Vertriebsprozesse', category: 'Industrie' },
+  { title: 'Nachhaltige Steigerung der Kundenzufriedenheit', category: 'Industrie' },
+  { title: 'Nachhaltige Steigerung der SEO Sichtbarkeiten', category: 'Banken & Versicherung' },
+  { title: 'On- und Offline-Verzahnung aller Marketing-Kanäle', category: 'Konsumgüter & Handel' },
+  { title: 'Strategische Weiterentwicklung einer E-Commerce Plattform', category: 'Industrie' },
+  { title: 'Strategische Entwicklung eines Loyalty-Programms', category: 'Sonstiges' },
+  { title: 'Strategische Entwicklung eines Hochschulmarketings', category: 'Öffentlicher Sektor' },
+  { title: 'Entwicklung einer zentralen Omni-Channel-Strategie', category: 'Konsumgüter & Handel' },
+  { title: 'Strategische Implementierung von Social-Media-Kanälen', category: 'Telekommunikation' },
+  { title: 'Entwicklung einer digitalen Omni-Channel-Strategie', category: 'Banken & Versicherung' },
+  { title: 'Entwicklung einer differenzierten Preisstrategie', category: 'Telekommunikation' },
+  { title: 'Navigieren durch die Digitale Expansion', category: 'Öffentlicher Sektor' },
+  { title: 'Neustrukturierung als Schlüssel zu Effizienz und Wachstum', category: 'Industrie' },
+  { title: 'Effizienzsteigerung durch gezielte Datennutzung', category: 'Industrie' },
+  { title: 'Effiziente Strukturierung einer Marketing- und Salesabteilung', category: 'Chemie, Energie & Rohstoffe' },
+  { title: 'CRM-Revolution – Verdopplung qualifizierter Leads', category: 'Automobil & Zulieferer' },
+  { title: 'Digital durchstarten mit unserer Market-Excellence', category: 'Energieversorger' },
+  { title: 'Mehr Umsatz durch neues Ertragsmodell einer Hotline', category: 'Sonstiges' },
+  { title: '53% Umsatzsteigerung mit neuer strategischer Ausrichtung', category: 'Automobil & Zulieferer' },
+  { title: 'Analyse der Händler- und Kundenzufriedenheit', category: 'Telekommunikation' },
+  { title: 'Effiziente und effektive Steigerung der Kundenansprache', category: 'Telekommunikation' },
+  { title: 'Durchführung einer fundierten Markt- und Zielgruppenanalyse', category: 'Konsumgüter & Handel' },
+  { title: 'Steigerung der Online Verkäufe und Kundeninteraktion', category: 'Öffentlicher Sektor' },
+  { title: 'Evaluierung verschiedener Business-Plan Szenarien', category: 'Transport & Logistik' },
+  { title: 'Digitale Neupositionierung in der Online-Verzahnung', category: 'Konsumgüter & Handel' },
+  { title: 'Entwicklung einer digitalen Vermarktungsstrategie', category: 'Konsumgüter & Handel' },
+  { title: 'Ganzheitliche Entwicklung eines zentralen Online-Shops', category: 'Chemie, Energie & Rohstoffe' },
+  { title: 'Implementierung einer effektiveren Leadgenerierung', category: 'Banken & Versicherung' },
+  { title: 'Kundenorientierte Entwicklung einer E-Commerce Strategie', category: 'Konsumgüter & Handel' },
+  { title: 'Personalplanung im Zeitalter des demographischen Wandels', category: 'Chemie, Energie & Rohstoffe' },
+  { title: 'Entwicklung eines digitalen Manchester-Triage-Systems', category: 'Gesundheitswesen' },
+  { title: 'Implementierung einer zentralen/digitalen Personalakte', category: 'Gesundheitswesen' },
+  { title: 'Implementierung eines Kundenbindungsprogramms', category: 'Telekommunikation' },
+  { title: 'Unterstützung zur nachhaltigen Mitarbeiter-Motivation', category: 'Gesundheitswesen' },
+  { title: 'Digitale Marketingstrategie für B2B-Marktführer', category: 'Energieversorger' },
+  { title: 'Stärkere Zusammenarbeit durch Behebung neuralgischer Punkte', category: 'Energieversorger' },
+  { title: 'Digitale Transformation – Steigerung der Online-Präsenz', category: 'Konsumgüter & Handel' },
+  { title: 'Strategische Neupositionierung einer Geschäftseinheit', category: 'Banken & Versicherung' },
+  { title: 'Durchführung einer Employer-Branding-Kampagne', category: 'Konsumgüter & Handel' },
+  { title: 'Ganzheitliche Entwicklung einer Digital-Strategie', category: 'Konsumgüter & Handel' },
+  { title: 'Umfassende SDG-Analyse für Unternehmen der Spezialchemie', category: 'Chemie, Energie & Rohstoffe' },
+  { title: 'Nachhaltigkeits-Kommunikation für Spezialchemie-Hersteller', category: 'Chemie, Energie & Rohstoffe' },
+  { title: 'Doppelte Wesentlichkeitsanalyse für hidden Champion', category: 'Transport & Logistik' },
+  { title: 'Einfache Wesentlichkeitsanalyse für Automobilzulieferer', category: 'Automobil & Zulieferer' },
+  { title: 'Hotspot-Analyse für Hidden Champion in HKL-Branche', category: 'Chemie, Energie & Rohstoffe' },
+  { title: 'Revolution im Kundenservice', category: 'Energieversorger' },
+  { title: 'Umfassende Digitalstrategie definiert einen Verlag neu', category: 'Konsumgüter & Handel' },
+  { title: 'Strategische Definition der Leistungen und Versprechen', category: 'Gesundheitswesen' },
+  { title: 'Strategische Entwicklung von Landingpages', category: 'Konsumgüter & Handel' },
+  { title: 'Erstellung eines ganzheitlichen Business-Plans für ein E-Portal', category: 'Industrie' },
+];
+---
+
+<Layout title="Erfolge" description="Unsere Erfolge – Ausgewählte Referenzprojekte der MPCG Managementberatung aus Köln.">
+
+  <Hero
+    title='Unsere <span class="gradient-text">Erfolge</span>'
+    subtitle="Referenzen"
+    description="Das bewirken wir bei unseren Kunden. Eine Auswahl unserer erfolgreich begleiteten Projekte."
+    compact={true}
+  />
+
+  <section class="section-padding bg-white">
+    <div class="container-custom">
+      <!-- Category Filter -->
+      <div class="flex flex-wrap gap-2 mb-12 justify-center fade-in" id="category-filter">
+        {categories.map((cat) => (
+          <button
+            data-category={cat}
+            class={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 border backdrop-blur-sm ${cat === 'Alle' ? 'bg-accent text-white border-accent shadow-sm shadow-accent/20' : 'bg-white text-text-light border-gray-200/80 hover:border-accent/40 hover:text-accent hover:bg-accent/[0.03]'}`}
+          >
+            {cat}
+          </button>
+        ))}
+      </div>
+
+      <!-- Cases Grid -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 fade-in stagger-children" id="cases-grid">
+        {caseStudies.map((study) => (
+          <div class="group bg-white rounded-2xl overflow-hidden border border-gray-100/80 card-hover glow" data-case-category={study.category}>
+            <div class="p-6">
+              <span class="tag tag-accent mb-3">{study.category}</span>
+              <h3 class="text-lg font-bold text-primary mb-3 group-hover:text-accent transition-colors tracking-tight">{study.title}</h3>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section-padding bg-primary text-white relative overflow-hidden grain">
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+      <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-accent/[0.06] rounded-full blur-[120px]"></div>
+      <div class="absolute bottom-0 left-0 w-[300px] h-[300px] bg-accent-light/[0.04] rounded-full blur-[80px]"></div>
+    </div>
+    <div class="container-custom relative text-center fade-in">
+      <h2 class="text-3xl md:text-5xl font-extrabold mb-6 tracking-tight">Lassen Sie uns gemeinsam Erfolge schaffen</h2>
+      <p class="text-white/50 text-lg max-w-2xl mx-auto mb-10 font-light">
+        Kontaktieren Sie uns für ein unverbindliches Erstgespräch. Wir zeigen Ihnen gerne, wie wir auch Ihrem Unternehmen helfen können.
+      </p>
+      <a href="/kontakt" class="btn-primary">
+        Kontakt aufnehmen
+        <Icon name="lucide:arrow-right" class="w-5 h-5 ml-2" />
+      </a>
+    </div>
+  </section>
+
+</Layout>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const buttons = document.querySelectorAll('#category-filter button');
+    const cases = document.querySelectorAll('#cases-grid > div');
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const cat = btn.dataset.category;
+
+        buttons.forEach(b => {
+          b.classList.remove('bg-accent', 'text-white', 'border-accent');
+          b.classList.add('bg-white', 'text-text-light', 'border-gray-200');
+        });
+        btn.classList.remove('bg-white', 'text-text-light', 'border-gray-200');
+        btn.classList.add('bg-accent', 'text-white', 'border-accent');
+
+        cases.forEach(c => {
+          const el = c as HTMLElement;
+          if (cat === 'Alle' || el.dataset.caseCategory === cat) {
+            el.style.display = '';
+          } else {
+            el.style.display = 'none';
+          }
+        });
+      });
+    });
+  });
+</script>

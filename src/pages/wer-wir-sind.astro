@@ -1,0 +1,262 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import StatItem from '../components/StatItem.astro';
+import { Icon } from 'astro-icon/components';
+---
+
+<Layout title="Wer wir sind" description="MPCG – Eine führende, umsetzungsstarke Unternehmensberatung aus Köln. Unser Team aus Digital Natives und Senior Experts begleitet Unternehmen in ihrer Transformation.">
+
+  <Hero
+    title='Die <span class="gradient-text">mpcg</span>'
+    subtitle="Wer wir sind"
+    description="Wir brennen für den Erfolg unserer Kunden und lieben das, was wir tun. Dabei verfolgen wir eine klare Mission, haben unseren eigenen Ansatz und vertreten starke, authentische Werte."
+    compact={true}
+  />
+
+  <!-- Über uns -->
+  <section class="section-padding bg-white">
+    <div class="container-custom">
+      <div class="max-w-5xl mx-auto">
+        <div class="text-center mb-16 fade-in">
+          <span class="section-label">Über uns</span>
+          <h2 class="text-3xl md:text-5xl font-extrabold text-primary tracking-tight">Das sind wir</h2>
+        </div>
+        <div class="max-w-3xl mx-auto space-y-6 fade-in">
+          <p class="text-text-light leading-relaxed text-lg font-light">
+            Wir sind eine führende, umsetzungsstarke Unternehmensberatung mit Sitz im Herzen von Köln. Wir begleiten Unternehmen in ihren Veränderungsprozessen ganzheitlich - von der Strategieentwicklung bis hin zur finalen Umsetzung.
+          </p>
+          <p class="text-text-light leading-relaxed text-lg">
+            Unser hoch motiviertes Team aus kreativen Digital Natives und praxiserfahrenen Senior Experts vereint das Beste beider Welten: frisches Wissen, innovative Ideen und digitale Exzellenz kombiniert mit langjähriger, unternehmerischer Erfahrung und analoger Bewährtheit.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission -->
+  <section class="section-padding bg-surface">
+    <div class="container-custom">
+      <div class="max-w-5xl mx-auto">
+        <div class="text-center mb-16 fade-in">
+          <span class="section-label">Unsere Mission</span>
+          <h2 class="text-3xl md:text-5xl font-extrabold text-primary tracking-tight">Das wollen wir erreichen</h2>
+        </div>
+        <div class="max-w-3xl mx-auto space-y-6 fade-in">
+          <p class="text-text-light leading-relaxed text-lg">
+            Unser Leitsatz „Leading Transformation" spricht für sich: In einer sich stetig verändernden Welt mit dynamischen Marktbedingungen müssen sich Unternehmen anpassen, um wettbewerbsfähig zu bleiben.
+          </p>
+          <p class="text-text-light leading-relaxed text-lg">
+            Unsere Mission ist es, Unternehmen in ihren notwendigen Veränderungsprozessen erfolgreich zu begleiten, immer mit dem Ziel, ihre Wertschöpfung nachhaltig zu steigern.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ansatz -->
+  <section class="section-padding bg-white">
+    <div class="container-custom">
+      <div class="max-w-5xl mx-auto">
+        <div class="text-center mb-16 fade-in">
+          <span class="section-label">Unser Ansatz</span>
+          <h2 class="text-3xl md:text-5xl font-extrabold text-primary tracking-tight">Das macht uns besonders</h2>
+        </div>
+        <div class="max-w-3xl mx-auto space-y-6 fade-in">
+          <p class="text-text-light leading-relaxed text-lg">
+            Unser Ansatz ist so einzigartig wie überzeugend: Wir konzipieren nicht nur zukunftsfähige Strategien, sondern sorgen dafür, dass sie erfolgreich umgesetzt werden.
+          </p>
+          <p class="text-text-light leading-relaxed text-lg">
+            Dabei arbeiten wir immer eng und auf Augenhöhe mit unseren Kunden zusammen und werden so selbst ein aktiver Teil der Teams.
+          </p>
+          <p class="text-text-light leading-relaxed text-lg">
+            Zudem gehen wir in allen Projekten sehr analytisch und datengetrieben vor, aber setzen gleichzeitig auf unsere wilden Ideen und starke „out-of-the-box"-Ansätze.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Leistungen -->
+  <section class="section-padding bg-surface">
+    <div class="container-custom">
+      <div class="text-center mb-16 fade-in">
+        <span class="section-label">Unsere Leistungen</span>
+        <h2 class="text-3xl md:text-5xl font-extrabold text-primary tracking-tight">Das können wir</h2>
+        <p class="text-text-light mt-4 max-w-2xl mx-auto text-lg font-light">
+          Wir haben ein umfassendes und bewährtes Leistungsspektrum, um die Transformation in Ihrem Unternehmen erfolgreich umzusetzen und die Wertschöpfung Ihres Unternehmens zu steigern.
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto fade-in stagger-children">
+        {[
+          { icon: 'lucide:refresh-cw', title: 'Agilere Organisation', href: '/leistungen/agile-organisation' },
+          { icon: 'lucide:zap', title: 'Effizientere Prozesse', href: '/leistungen/effizientere-prozesse' },
+          { icon: 'lucide:trending-up', title: 'Mehr Sales', href: '/leistungen/mehr-sales' },
+          { icon: 'lucide:sprout', title: 'Tiefgreifende Nachhaltigkeit', href: '/leistungen/nachhaltigkeit' },
+          { icon: 'lucide:compass', title: 'Bessere Strategie', href: '/leistungen/bessere-strategie' },
+        ].map((item) => (
+          <a href={item.href} class="bg-white rounded-2xl p-8 border border-gray-100/80 card-hover glow group flex flex-col items-center text-center">
+            <div class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center mb-5 group-hover:bg-accent transition-colors duration-500">
+              <Icon name={item.icon} class="w-6 h-6 text-accent group-hover:text-white transition-colors duration-500" />
+            </div>
+            <h3 class="text-lg font-bold text-primary group-hover:text-accent transition-colors tracking-tight">{item.title}</h3>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="py-16 bg-primary text-white grain relative overflow-hidden">
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+      <div class="absolute top-0 right-1/4 w-[400px] h-[400px] bg-accent/[0.05] rounded-full blur-[100px]"></div>
+    </div>
+    <div class="container-custom relative">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 fade-in">
+        <StatItem number="88" suffix="+" label="Projekte" />
+        <StatItem number="70" suffix="%" label="Folgeprojekte" />
+        <StatItem number="89" suffix="%" label="Sehr zufrieden" />
+        <StatItem number="26" suffix="+" label="Jahre Erfahrung" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Werte -->
+  <section class="section-padding bg-white">
+    <div class="container-custom">
+      <div class="text-center mb-16 fade-in">
+        <span class="section-label">Unsere Werte</span>
+        <h2 class="text-3xl md:text-5xl font-extrabold text-primary tracking-tight">Das ist uns wichtig</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto fade-in stagger-children">
+        <div class="bg-surface rounded-2xl p-8 border border-gray-100/80 hover:border-accent/20 transition-colors duration-500">
+          <Icon name="lucide:users" class="w-8 h-8 text-accent mb-4" />
+          <h3 class="text-xl font-bold text-primary mb-4 tracking-tight">Wir sind teamfokussiert.</h3>
+          <p class="text-text-light leading-relaxed text-sm">
+            Unser starkes Wir-Gefühl zeichnet uns aus. Wir arbeiten immer interdisziplinär, respektvoll und mit viel Wertschätzung zusammen. Dazu gehört auch unsere offene Feedback-Kultur, die für uns alle den ersten Schritt zum persönlichen Wachstum ausmacht, aber auch immer unser Team als Ganzes weiterentwickelt.
+          </p>
+        </div>
+        <div class="bg-surface rounded-2xl p-8 border border-gray-100/80 hover:border-accent/20 transition-colors duration-500">
+          <Icon name="lucide:eye" class="w-8 h-8 text-accent mb-4" />
+          <h3 class="text-xl font-bold text-primary mb-4 tracking-tight">Wir sind offen.</h3>
+          <p class="text-text-light leading-relaxed text-sm">
+            Unser Unternehmen steht für Vielfalt. Sehr wichtig ist für uns der Blick über den Tellerrand: Wir sind unvoreingenommen, vorurteilsfrei und offen gegenüber allen Ideen, Perspektiven und Meinungen. So lernen wir voneinander und ergänzen uns gegenseitig, um das bestmögliche Ergebnis für unsere Kunden zu erzielen.
+          </p>
+        </div>
+        <div class="bg-surface rounded-2xl p-8 border border-gray-100/80 hover:border-accent/20 transition-colors duration-500">
+          <Icon name="lucide:heart-handshake" class="w-8 h-8 text-accent mb-4" />
+          <h3 class="text-xl font-bold text-primary mb-4 tracking-tight">Wir sind empathisch.</h3>
+          <p class="text-text-light leading-relaxed text-sm">
+            Wir setzen immer den Menschen in den Fokus: unsere Mitarbeiter, unsere Kunden und die Kunden unserer Kunden. Wir bauen oft eine persönliche Verbindung zu unseren Kunden auf und verstehen so deren Bedürfnisse in der Tiefe. Dadurch schaffen wir es, maßgeschneiderte Lösungen zu entwickeln, die unsere Kunden wirklich weiterbringen.
+          </p>
+        </div>
+        <div class="bg-surface rounded-2xl p-8 border border-gray-100/80 hover:border-accent/20 transition-colors duration-500">
+          <Icon name="lucide:trophy" class="w-8 h-8 text-accent mb-4" />
+          <h3 class="text-xl font-bold text-primary mb-4 tracking-tight">Wir sind leistungsorientiert.</h3>
+          <p class="text-text-light leading-relaxed text-sm">
+            Wir haben einen klaren Leistungsanspruch an uns selbst und an unsere Arbeit. Egal ob in der Arbeit mit unseren Kunden oder in der Arbeit im Team: Unser Anspruch ist es, immer „top-notch" Leistungen mit herausragenden Ergebnissen abzuliefern - und dabei die Erwartungen unserer Kunden zu übertreffen.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kunden -->
+  <section class="section-padding bg-surface">
+    <div class="container-custom">
+      <div class="text-center mb-16 fade-in">
+        <span class="section-label">Vertrauen</span>
+        <h2 class="text-3xl md:text-5xl font-extrabold text-primary tracking-tight">Unsere Kunden</h2>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 gap-6 max-w-4xl mx-auto fade-in">
+        {['Kampmann', 'Ferrari', 'Rheinenergie', 'Adidas', 'Bechem', 'OBI', 'Sparkasse', 'P&G', 'Cepheid', 'Škoda', 'Gothaer', 'Trilux', 'expert', 'O₂', 'Deichmann', 'Lufthansa'].map((name) => (
+          <div class="bg-white border border-gray-100 rounded-2xl h-20 flex items-center justify-center hover:shadow-md transition-all duration-300">
+            <span class="text-lg font-bold text-gray-400 hover:text-primary transition-colors">{name}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Überzeugung -->
+  <section class="section-padding bg-white">
+    <div class="container-custom">
+      <div class="text-center mb-16 fade-in">
+        <span class="section-label">Unsere Überzeugung</span>
+        <h2 class="text-3xl md:text-5xl font-extrabold text-primary tracking-tight">Das liegt uns am Herzen</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto fade-in stagger-children">
+        <!-- Nachhaltigkeit -->
+        <div class="bg-surface rounded-2xl p-8 border border-gray-100/80 hover:border-accent/20 transition-colors duration-500">
+          <Icon name="lucide:leaf" class="w-8 h-8 text-green-600 mb-4" />
+          <h3 class="text-xl font-bold text-primary mb-4 tracking-tight">Nachhaltigkeit</h3>
+          <div class="text-text-light leading-relaxed text-sm space-y-4">
+            <p>
+              Wir unterstützen Unternehmen nicht nur dabei, ihre Nachhaltigkeitsperformance zu verbessern, sondern streben auch danach, nachhaltige Praktiken in unserem Arbeitsalltag zu etablieren. Wir erkennen die Dringlichkeit des Klimawandels und die Notwendigkeit, verantwortungsvoll mit den begrenzten Ressourcen unseres Planeten umzugehen.
+            </p>
+            <p>
+              Um nachhaltiges Zusammenarbeiten sicherzustellen, haben wir eine Reihe von Maßnahmen in unsere Geschäftsabläufe integriert und streben danach, in Zukunft weitere Maßnahmen zu implementieren. Aktuelle Maßnahmen umfassen:
+            </p>
+            <ul class="list-disc list-inside space-y-1">
+              <li>Bezuschussung des Deutschlandtickets zur Förderung der Nutzung des ÖPNV</li>
+              <li>Home Office Möglichkeit zur Reduzierung von Emissionen durch Anfahrts- und Abfahrtswege</li>
+              <li>Vermeidung von Flugreisen und Nutzung von Bahnreisen und Car-Sharing</li>
+              <li>Nutzung von energiesparsamen Geräten und CO₂-freundlichem Strom</li>
+              <li>Reparatur gebrauchter Bürogegenstände, wie z. B. Hardware</li>
+              <li>Weiterverkauf von nicht mehr benötigter Büroausstattung</li>
+            </ul>
+            <p>
+              Des Weiteren treiben wir das Thema Nachhaltigkeit aktiv in unseren Beratungsprojekten voran, indem wir unseren Kunden helfen, ihre Auswirkungen auf die Umwelt zu ermitteln, um nachhaltige Geschäftspraktiken zu entwickeln und umzusetzen. Wir unterstützen sie zum Beispiel dabei, umweltfreundlichere Produktionsprozesse zu implementieren, Ressourceneffizienz zu maximieren und nachhaltige Lieferketten aufzubauen.
+            </p>
+          </div>
+        </div>
+
+        <!-- Diversity -->
+        <div class="bg-surface rounded-2xl p-8 border border-gray-100/80 hover:border-accent/20 transition-colors duration-500">
+          <Icon name="lucide:heart" class="w-8 h-8 text-pink-600 mb-4" />
+          <h3 class="text-xl font-bold text-primary mb-4 tracking-tight">Diversity</h3>
+          <div class="text-text-light leading-relaxed text-sm space-y-4">
+            <p>
+              Bei uns steht immer der Mensch im Fokus. Wir erkennen die unschätzbaren Vorteile, die ein vielfältiges Team mit sich bringt. Wir sind davon überzeugt, dass uns unterschiedliche Hintergründe, Perspektiven und Erfahrungen bereichern - in unserer Kreativität, Innovationskraft und Problemlösungsfähigkeit.
+            </p>
+            <p>
+              Um die Vielseitigkeit bei mpcg zu fördern, implementieren wir gezielte Maßnahmen in allen Bereichen unseres Unternehmens. Dies umfasst einen inklusiven Einstellungsprozess, der darauf abzielt, Kandidaten verschiedener Hintergründe anzuziehen.
+            </p>
+            <p>
+              Darüber hinaus fördern wir eine offene und respektvolle Unternehmenskultur, die es Mitarbeitern ermöglicht, sich frei auszudrücken und ihre einzigartigen Perspektiven einzubringen. Insgesamt betrachten wir Diversity nicht nur als eine ethische Verpflichtung, sondern auch als eine strategische Priorität, die uns dabei hilft, erfolgreich zu sein und einen positiven Einfluss auf unsere Mitarbeiter, Kunden und die Gesellschaft insgesamt zu haben.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section-padding bg-primary text-white relative overflow-hidden grain">
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+      <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-accent/[0.06] rounded-full blur-[120px]"></div>
+      <div class="absolute bottom-0 left-0 w-[300px] h-[300px] bg-accent-light/[0.04] rounded-full blur-[80px]"></div>
+    </div>
+    <div class="container-custom relative text-center fade-in">
+      <h2 class="text-3xl md:text-5xl font-extrabold mb-6 tracking-tight">Lernen Sie uns kennen</h2>
+      <p class="text-white/50 text-lg max-w-2xl mx-auto mb-10 font-light">
+        Kontaktieren Sie uns für ein unverbindliches Erstgespräch. Wir freuen uns auf Sie!
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="/kontakt" class="btn-primary">
+          Kontakt aufnehmen
+          <Icon name="lucide:arrow-right" class="w-5 h-5 ml-2" />
+        </a>
+        <a href="tel:+4922167002120" class="btn-outline-white">
+          <Icon name="lucide:phone" class="w-5 h-5 mr-2" />
+          0221 670 021 20
+        </a>
+      </div>
+    </div>
+  </section>
+
+</Layout>

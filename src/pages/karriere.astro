@@ -1,0 +1,256 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import { Icon } from 'astro-icon/components';
+---
+
+<Layout title="Karriere" description="Karriere bei der MPCG – Vielfältige Einstiegsmöglichkeiten und steile Lernkurven in einer dynamischen Managementberatung aus Köln.">
+
+  <Hero
+    title='Deine Karriere bei <span class="gradient-text">der mpcg</span>'
+    subtitle="Karriere"
+    description="Du bist auf der Suche nach einer neuen beruflichen Herausforderung im Consulting? Wir freuen uns über Deine Bewerbung!"
+    ctaText="Jetzt bewerben"
+    ctaHref="mailto:bewerbung@mpcg.de"
+    compact={true}
+    backgroundImage="/imgi_36_mpcg-karriere-desktop.jpg"
+  />
+
+  <!-- Einstieg -->
+  <section class="section-padding bg-white">
+    <div class="container-custom">
+      <div class="max-w-5xl mx-auto">
+        <div class="text-center mb-16 fade-in">
+          <span class="section-label">Einstieg</span>
+          <h2 class="text-3xl md:text-5xl font-extrabold text-primary tracking-tight">Wie Du bei uns einsteigen kannst</h2>
+          <p class="text-text-light mt-4 max-w-3xl mx-auto text-lg font-light">
+            Wir bieten Studierenden und Absolvent:innen aller Fachrichtungen verschiedene Möglichkeiten, Teil unseres Teams zu werden. Ob Praktikum (ab drei Monate), Werkstudentenjob oder Direkteinstieg – finde den Einstieg, der am besten zu Dir und Deiner aktuellen Situation passt.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 fade-in stagger-children">
+          {[
+            { icon: 'lucide:book-open', title: 'Praktikum', text: 'Wenn Du während Deiner Semesterferien oder aufgrund eines Praxissemesters erste praktische Erfahrungen sammeln möchtest, bewirb Dich gerne auf ein Praktikum (40h/Woche) bei uns. Wir bieten sowohl Pflichtpraktika als auch freiwillige Praktika, mit einer Praktikumsdauer von mindestens drei Monaten, an.' },
+            { icon: 'lucide:graduation-cap', title: 'Werkstudentenjob', text: 'Wenn Du parallel zu Deinem Studium eine Teilzeitstelle (20h/Woche) anfangen möchtest, um Deine Arbeitserfahrung zu vertiefen, freuen wir uns über Deine Bewerbung als Werkstudent:in.' },
+            { icon: 'lucide:rocket', title: 'Junior Consultant', text: 'Hast Du bereits erste Berufserfahrungen durch diverse Praktika und Werkstudentenjobs gesammelt, freuen wir uns, Dich als Junior Consultant (40h/Woche) in Vollzeitbeschäftigung begrüßen zu dürfen.' },
+            { icon: 'lucide:briefcase', title: 'Consultant', text: 'Wenn Du schon ein bis zwei Jahre Vollzeit-Berufserfahrung im Consulting oder in einem ähnlichen Bereich gesammelt hast, hast Du die Möglichkeit bei uns direkt als Consultant (40h/Woche) einzusteigen.' },
+            { icon: 'lucide:award', title: 'Senior Consultant', text: 'Wenn Du schon viele Jahre Erfahrung in der Unternehmensberatung gesammelt, bereits Führungsaufgaben im Unternehmen übernommen und souveräne Projektmanagement-Skills generiert hast, dann freuen wir uns über Deine Bewerbung als Senior Consultant (40h/Woche).' },
+          ].map((item) => (
+            <div class="bg-surface rounded-2xl p-8 border border-gray-100/80 card-hover glow group">
+              <div class="w-11 h-11 bg-accent/10 rounded-xl flex items-center justify-center mb-5 group-hover:bg-accent transition-colors duration-500">
+                <Icon name={item.icon} class="w-5 h-5 text-accent group-hover:text-white transition-colors duration-500" />
+              </div>
+              <h3 class="text-xl font-bold text-primary mb-3 tracking-tight">{item.title}</h3>
+              <p class="text-text-light text-sm leading-relaxed">{item.text}</p>
+            </div>
+          ))}
+
+          <a href="mailto:bewerbung@mpcg.de" class="group flex flex-col items-center justify-center bg-gradient-to-br from-accent to-blue-500 rounded-2xl p-8 text-white card-hover relative overflow-hidden grain">
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.1),transparent_60%)]" />
+            <div class="w-12 h-12 bg-white/15 backdrop-blur-sm rounded-xl flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-500 border border-white/10">
+              <Icon name="lucide:send" class="w-5 h-5" />
+            </div>
+            <h3 class="text-lg font-bold mb-1.5 tracking-tight">Jetzt bewerben</h3>
+            <p class="text-white/60 text-sm text-center">bewerbung@mpcg.de</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Entwicklung -->
+  <section class="section-padding bg-surface">
+    <div class="container-custom">
+      <div class="max-w-5xl mx-auto">
+        <div class="text-center mb-16 fade-in">
+          <span class="section-label">Entwicklung</span>
+          <h2 class="text-3xl md:text-5xl font-extrabold text-primary tracking-tight">Deine Weiterentwicklung</h2>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6 fade-in stagger-children">
+          <div class="rounded-2xl overflow-hidden border border-gray-100/80 bg-white glow">
+            <img src="/imgi_8_Fachliche-Weiterentwicklung-e1713269497586.jpg" alt="Fachliche Weiterentwicklung" class="w-full aspect-video object-cover" loading="lazy" />
+            <div class="p-8">
+              <h3 class="text-2xl font-bold text-primary mb-4 tracking-tight">Fachliche Weiterentwicklung durch eine steile Lernkurve</h3>
+              <p class="text-text-light leading-relaxed text-sm mb-4">
+                Bei der mpcg hast Du die Chance, Dich durch anspruchsvolle Projekte in vielfältigen Branchen und Themengebieten kontinuierlich weiterzuentwickeln. Unsere herausfordernden Projekte geben Dir die Möglichkeit, Dein Wissen kontinuierlich zu erweitern und neue Kompetenzen zu erwerben. Da Du von Anfang an Verantwortung übernimmst, wächst Du mit jeder Aufgabe und stärkst sowohl Dein analytisches Denken als auch Deine Problemlösungsfähigkeiten.
+              </p>
+              <p class="text-text-light leading-relaxed text-sm">
+                Außerdem bieten wir Dir regelmäßiges und umfangreiches Feedback. Zusätzlich bieten wir Dir interne Schulungen und Weiterbildungen. Durch diese Mischung aus Praxis und Theorie, begleitet von einem erfahrenen Mentor, erwartet Dich bei uns ein Umfeld, das es Dir ermöglicht, fachlich jeden Tag zu wachsen.
+              </p>
+            </div>
+          </div>
+          <div class="rounded-2xl overflow-hidden border border-gray-100/80 bg-white glow">
+            <img src="/imgi_9_Persoenliche-Weiterentwicklung-e1713269831727.jpg" alt="Persönliche Weiterentwicklung" class="w-full aspect-video object-cover" loading="lazy" />
+            <div class="p-8">
+              <h3 class="text-2xl font-bold text-primary mb-4 tracking-tight">Persönliche Entwicklung durch viel Eigenverantwortung</h3>
+              <p class="text-text-light leading-relaxed text-sm mb-4">
+                Bei der mpcg wird nicht nur fachliche Exzellenz geschätzt, sondern auch Dein persönliches Wachstum. Du übernimmst vom ersten Tag an Eigenverantwortung, gestaltest aktiv Projekte mit und bringst Deine eigenen Ideen ein. Diese Verantwortung ermöglicht es Dir, Selbstvertrauen aufzubauen und Dein Potenzial voll auszuschöpfen. In einem unterstützenden Teamumfeld, das Zusammenarbeit und Respekt fördert, lernst Du zudem, effektiv zu kommunizieren und Dich in unterschiedlichen Situationen zu behaupten.
+              </p>
+              <p class="text-text-light leading-relaxed text-sm">
+                Darüber hinaus fördert die mpcg Deine Soft-Skills durch gezielte Mentoring-Programme und konstruktives Feedback. So wirst Du auf Deinem persönlichen Karriereweg unterstützt und entwickelst Fähigkeiten, die weit über das Berufliche hinausgehen. Uns geht es darum, dass Du nicht nur als Berater:in wächst, sondern auch als Persönlichkeit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Entdecken -->
+  <section class="section-padding bg-white">
+    <div class="container-custom">
+      <div class="text-center mb-16 fade-in">
+        <span class="section-label">Entdecken</span>
+        <h2 class="text-3xl md:text-5xl font-extrabold text-primary tracking-tight">Was Dich bei uns erwartet</h2>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-5xl mx-auto fade-in stagger-children">
+        {[
+          { icon: 'lucide:building-2', title: 'Über uns', text: 'Die Michael Prothmann Consulting Group (kurz: mpcg) ist eine führende, umsetzungsstarke Unternehmensberatung mit Sitz in Köln. Unser Geschäftsführer ist Michael Prothmann, der vor der Gründung u.a. für Roland Berger und McKinsey beratend tätig war. Unsere Kunden sind namhafte Unternehmen aus verschiedensten Branchen.' },
+          { icon: 'lucide:compass', title: 'Mission', text: 'Unter dem Leitbild „Leading Transformation" begleiten wir Unternehmen ganzheitlich in ihren Veränderungsprozessen – von der Strategieentwicklung bis hin zur finalen Umsetzung. Immer mit dem Ziel, ihre Wertschöpfung nachhaltig zu steigern.' },
+          { icon: 'lucide:sparkles', title: 'Ansatz', text: 'Wir verfolgen einen ganzheitlichen Top-Management-Beratungsansatz. Dies bedeutet, dass wir nicht nur auf eine Facette der Veränderung schauen, sondern den gesamten Transformationsprozess im Blick haben. Dazu bieten wir ein breites Spektrum an Beratungsleistungen in den Bereichen Strategie, Digitalisierung und Performance an.' },
+          { icon: 'lucide:heart', title: 'Werte & Kultur', text: 'Unsere Unternehmenskultur ist geprägt von einem starken Zusammenhalt und einem offenen Austausch. Jede(r) Mitarbeiter:in wird ermutigt, Verantwortung zu übernehmen und innovative Ideen einzubringen. Regelmäßige Teamevents und eine flache Hierarchie unterstützen die Zusammenarbeit.' },
+          { icon: 'lucide:leaf', title: 'Nachhaltigkeit', text: 'Als Unternehmensberatung fühlen wir uns verpflichtet, nachhaltige Praktiken aktiv in unsere Projekte einzubinden. Sowohl in der Beratung als auch intern verfolgen wir das Ziel, ökologisch verantwortlich zu handeln. Zudem optimieren wir kontinuierlich unseren eigenen ökologischen Fußabdruck.' },
+          { icon: 'lucide:users', title: 'Diversity', text: 'Vielfalt ist für uns nicht nur ein Grundsatz, sondern gelebte Praxis. Wir fördern aktiv ein inklusives Arbeitsumfeld, in dem unterschiedliche Hintergründe und Perspektiven als Stärke gesehen werden. Diese Diversität bereichert unsere Arbeit und fördert kreative Lösungsansätze.' },
+        ].map((item) => (
+          <div class="bg-surface rounded-2xl p-8 border border-gray-100/80 hover:border-accent/20 transition-colors duration-500">
+            <Icon name={item.icon} class="w-8 h-8 text-accent mb-4" />
+            <h3 class="text-lg font-bold text-primary mb-3 tracking-tight">{item.title}</h3>
+            <p class="text-text-light text-sm leading-relaxed">{item.text}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Erfahrungen / Testimonials -->
+  <section class="section-padding bg-surface">
+    <div class="container-custom">
+      <div class="text-center mb-16 fade-in">
+        <span class="section-label">Erfahrungen</span>
+        <h2 class="text-3xl md:text-5xl font-extrabold text-primary tracking-tight">Das sagt unser Team</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-6xl mx-auto fade-in stagger-children">
+        {[
+          { quote: 'mpcg vereint ein hervorragendes Team, interessante Projekte und hohe Eigenverantwortung. Diese Zeit hat mich persönlich und fachlich bereichert und mir eine steile Lernkurve ermöglicht.', author: 'Jan Hoven', role: 'Consultant' },
+          { quote: 'Tolles Team, spannende Projekte, viel Eigenverantwortung und eine steile Lernkurve. Bei mpcg konnte ich viel mitnehmen!', author: 'Pia Schmidt', role: 'Consultant' },
+          { quote: 'Die mpcg war für mich nicht nur ein tolles Team mit breitem Wissen, sondern bot mir auch die Chance, meine Stärken zu nutzen, um in spannenden Projekten viel Verantwortung zu übernehmen und mich fachlich wie persönlich unter großartiger Führung weiterentwickeln zu dürfen.', author: 'Marie Schlottbom', role: 'Consultant' },
+          { quote: 'mpcg war für mich der perfekte Berufseinstieg. Neben spannender und abwechslungsreicher Projektarbeit steht die persönliche Entwicklung im Mittelpunkt. Ich konnte jeden Bereich des Unternehmens mitgestalten, Ideen einbringen und mich ausprobieren. Gleichzeitig ist Michael ein toller Mentor, um fachlich und persönlich die eigenen Stärken weiter auszubauen. Danke für die tolle Zeit!', author: 'Isabell Winden', role: 'Consultant' },
+          { quote: 'Was mir in meiner Zeit bei der mpcg besonders gefallen hat, war die besondere, enge Zusammenarbeit mit den Kunden.', author: 'Ann-Kathrin Lehmann', role: 'Consultant' },
+        ].map((testimonial) => (
+          <div class="bg-white rounded-2xl p-8 border border-gray-100/80 hover:border-accent/20 transition-colors duration-500">
+            <Icon name="lucide:quote" class="w-8 h-8 text-accent/20 mb-4" />
+            <p class="text-text-light leading-relaxed text-sm mb-6 italic">„{testimonial.quote}"</p>
+            <div>
+              <p class="font-bold text-primary">{testimonial.author}</p>
+              <p class="text-text-light text-sm">{testimonial.role}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQs -->
+  <section class="section-padding bg-white">
+    <div class="container-custom">
+      <div class="text-center mb-16 fade-in">
+        <span class="section-label">FAQs</span>
+        <h2 class="text-3xl md:text-5xl font-extrabold text-primary tracking-tight">Du hast Fragen? Wir haben Antworten.</h2>
+      </div>
+
+      <div class="max-w-4xl mx-auto space-y-4 fade-in">
+        <h3 class="text-xl font-bold text-primary mt-8 mb-4">Bewerbung</h3>
+        {[
+          { q: 'Wer ist Ansprechpartner für Bewerbungen?', a: 'Ansprechpartner für Bewerbungen ist unser HR-Manager Kumar Gürtler. Am besten erreichbar ist er via E-Mail: bewerbung@mpcg.de.' },
+          { q: 'Wie bewerbe ich mich?', a: 'Auf der Seite „Vakante Stellen" findest Du unsere aktuellen, freien Positionen. Wenn Du Dich für eine der Positionen interessierst, sende uns gerne Deinen Lebenslauf, Deinen möglichen Einsatzzeitraum und aussagekräftige Zeugnisse per E-Mail an bewerbung@mpcg.de. Die Erstellung eines Anschreibens ersparen wir Dir! Bitte gib Deine gewünschte Position in der Betreffzeile Deiner E-Mail an.' },
+          { q: 'Kann ich mich telefonisch im Voraus über eine Stelle informieren?', a: 'Natürlich. Du erreichst uns unter: 0221 670 021 20.' },
+          { q: 'Werden Initiativbewerbungen akzeptiert?', a: 'Ja, wir nehmen Initiativbewerbungen sehr gerne entgegen! Wenn Du denkst, dass Du gut zu uns passt und etwas Einzigartiges beitragen kannst, zögere nicht, uns Deine Unterlagen zuzusenden. Wir sind immer auf der Suche nach talentierten und motivierten Personen, die unser Team bereichern möchten. Normalerweise verzichten wir auf ein Anschreiben. Im Fall einer Initiativbewerbung ist dieses jedoch notwendig.' },
+          { q: 'Werden Quereinsteiger:innen akzeptiert?', a: 'Ja, absolut! Wir freuen uns sehr über Bewerbungen von Quereinsteiger:innen. Bei uns zählt nicht nur der traditionelle Karriereweg, sondern vor allem Deine Motivation, Fähigkeiten und die frischen Perspektiven, die Du in unser Team einbringen kannst.' },
+        ].map((faq) => (
+          <details class="group bg-surface rounded-2xl border border-gray-100">
+            <summary class="flex items-center justify-between p-6 cursor-pointer">
+              <span class="font-semibold text-primary pr-4">{faq.q}</span>
+              <Icon name="lucide:chevron-down" class="w-5 h-5 text-accent shrink-0 group-open:rotate-180 transition-transform" />
+            </summary>
+            <div class="px-6 pb-6 text-text-light text-sm leading-relaxed">{faq.a}</div>
+          </details>
+        ))}
+
+        <h3 class="text-xl font-bold text-primary mt-8 mb-4">Dokumente</h3>
+        {[
+          { q: 'Welche Dokumente muss ich meiner Bewerbung anfügen?', a: 'Ein Anschreiben ist bei uns freiwillig. Obligatorisch sind: Lebenslauf, Abiturzeugnis, akademische Zeugnisse, ggf. aktuelles Transcript of Record, ggf. sonstige, interessante Bescheinigungen und Zertifikate.' },
+          { q: 'Welche Dateitypen werden im Bewerbungsprozess akzeptiert?', a: 'Bitte reiche alle Dokumente im PDF-Format ein.' },
+        ].map((faq) => (
+          <details class="group bg-surface rounded-2xl border border-gray-100">
+            <summary class="flex items-center justify-between p-6 cursor-pointer">
+              <span class="font-semibold text-primary pr-4">{faq.q}</span>
+              <Icon name="lucide:chevron-down" class="w-5 h-5 text-accent shrink-0 group-open:rotate-180 transition-transform" />
+            </summary>
+            <div class="px-6 pb-6 text-text-light text-sm leading-relaxed">{faq.a}</div>
+          </details>
+        ))}
+
+        <h3 class="text-xl font-bold text-primary mt-8 mb-4">Auswahlverfahren</h3>
+        {[
+          { q: 'Wann kann ich nach Versand meiner Bewerbung mit einer Antwort rechnen?', a: 'Wir bemühen uns, Dir spätestens eine Woche nach Eingang Deiner Bewerbungsunterlagen eine erste Rückmeldung zu geben.' },
+          { q: 'Was erwartet mich im Bewerbungsgespräch/Bewerbungsprozess?', a: 'Unser Bewerbungsprozess ist in zwei Stufen unterteilt. In der ersten Stufe vereinbaren wir mit dir ein Teams-Meeting, bei dem es primär darum geht, dass wir uns gegenseitig kennenlernen. In diesem Gespräch hast Du die Möglichkeit, Dich, Deinen Lebenslauf und Deine Motivation in Ruhe vorzustellen. In der zweiten Stufe laden wir Dich dann zu einem zweiten Gespräch in unser Büro ein. In diesem Gespräch geht es darum, deine fachlichen Kompetenzen auf den Prüfstand zu stellen. Dazu erhältst Du von uns ein bis zwei Cases, die Du uns dann vor Ort präsentierst.' },
+          { q: 'Wann erhalte ich Feedback nach Bewerbungsgesprächen?', a: 'Wir legen viel Wert auf eine schnelle Rückmeldung an unsere Bewerber:innen. Daher kannst Du innerhalb einer Woche mit einer Rückmeldung von uns rechnen.' },
+        ].map((faq) => (
+          <details class="group bg-surface rounded-2xl border border-gray-100">
+            <summary class="flex items-center justify-between p-6 cursor-pointer">
+              <span class="font-semibold text-primary pr-4">{faq.q}</span>
+              <Icon name="lucide:chevron-down" class="w-5 h-5 text-accent shrink-0 group-open:rotate-180 transition-transform" />
+            </summary>
+            <div class="px-6 pb-6 text-text-light text-sm leading-relaxed">{faq.a}</div>
+          </details>
+        ))}
+
+        <h3 class="text-xl font-bold text-primary mt-8 mb-4">Sonstiges</h3>
+        {[
+          { q: 'Welche Arten von Praktika werden angeboten?', a: 'Wir bieten sowohl freiwillige Praktika, zum Beispiel während der Semesterferien, als auch Pflichtpraktika im Rahmen eines Praxissemesters an.' },
+          { q: 'Wie lange dauert ein Praktikum?', a: 'Die Mindestpraktikumsdauer beträgt drei Monate. Wir empfehlen jedoch eine Praktikumslänge von sechs Monaten. Eine Übernahme als Werkstudierende:r (20h/Woche) oder Junior Consultant in Festanstellung (40h/Woche) ist möglich.' },
+          { q: 'Kann ich bei der mpcg Abschlussarbeiten schreiben?', a: 'Jein. Da unser Geschäftsführer, Michael Prothmann, neben der mpcg auch Dozent an der Cologne Business School (CBS) ist, haben (leider) nur Studierende der CBS diese Möglichkeit. Voraussetzung ist, dass mindestens ein Kurs bei Herrn Prothmann besucht wird oder wurde. Bei Interesse, wende Dich gerne direkt an Herrn Prothmann über seine CBS E-Mail Adresse.' },
+          { q: 'Mit welchem Lohn/Gehalt kann ich rechnen?', a: 'Obwohl die mpcg ein relativ kleines Unternehmen ist, bieten wir trotzdem wettbewerbsfähige Löhne und Gehälter an. Diese orientieren sich an Deiner akademischen Ausbildung (Bachelor/Master), Deinen bisherigen Erfahrungen und Deinen Fähigkeiten.' },
+          { q: 'Ist das Arbeiten aus dem Home Office möglich?', a: 'Prinzipiell, ja. Wir haben zwar keine offizielle Home Office Regelung, aber wenn es Deine Aufgaben zulassen, dass Du diese auch gut von Zuhause aus erledigen kannst, ist Home Office nach Absprache mit Deinen Teamkollegen möglich. Generell legen wir allerdings viel Wert auf eine persönliche Zusammenarbeit in unserem Büro mitten im schönen belgischen Viertel.' },
+          { q: 'Welche Corporate Benefits werden angeboten?', a: 'Eine wertschätzende Zusammenarbeit liegt uns sehr am Herzen. Daher veranstalten wir regelmäßig Teamevents und gehen einmal pro Quartal gemeinsam in einem hochwertigen Restaurant essen. Außerdem erhält jede(r) Mitarbeiter:in zu seinem Einstieg, zum Geburtstag und zu Weihnachten ein Präsent. Daneben bezuschussen wir das Deutschlandticket.' },
+        ].map((faq) => (
+          <details class="group bg-surface rounded-2xl border border-gray-100">
+            <summary class="flex items-center justify-between p-6 cursor-pointer">
+              <span class="font-semibold text-primary pr-4">{faq.q}</span>
+              <Icon name="lucide:chevron-down" class="w-5 h-5 text-accent shrink-0 group-open:rotate-180 transition-transform" />
+            </summary>
+            <div class="px-6 pb-6 text-text-light text-sm leading-relaxed">{faq.a}</div>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Bewerbung CTA -->
+  <section class="section-padding bg-primary text-white relative overflow-hidden grain">
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+      <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-accent/[0.06] rounded-full blur-[120px]"></div>
+      <div class="absolute bottom-0 left-0 w-[300px] h-[300px] bg-accent-light/[0.04] rounded-full blur-[80px]"></div>
+    </div>
+    <div class="container-custom relative text-center fade-in">
+      <h2 class="text-3xl md:text-5xl font-extrabold mb-6 tracking-tight">Jetzt bewerben</h2>
+      <p class="text-white/50 text-lg max-w-2xl mx-auto mb-10 font-light">
+        Du möchtest Teil unseres Teams werden? Wir freuen uns auf Deine Bewerbung!
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="mailto:bewerbung@mpcg.de" class="btn-primary">
+          <Icon name="lucide:send" class="w-5 h-5 mr-2" />
+          bewerbung@mpcg.de
+        </a>
+        <a href="tel:+4922167002120" class="btn-outline-white">
+          <Icon name="lucide:phone" class="w-5 h-5 mr-2" />
+          0221 670 021 20
+        </a>
+      </div>
+    </div>
+  </section>
+
+</Layout>

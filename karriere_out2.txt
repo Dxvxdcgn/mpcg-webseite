@@ -1,0 +1,216 @@
+
+=== HERO SECTION ===
+
+[h1] Deine Karriere bei der mpcg
+[p] Du bist auf der Suche nach einer neuen beruflichen Herausforderung im Consulting? Wir freuen uns über Deine Bewerbung!
+[p] Jetzt bewerben
+[a] Jetzt bewerben
+
+=== ALL BODY TEXT (headings + paragraphs) ===
+
+[h1] Deine Karriere bei der mpcg
+[p] Du bist auf der Suche nach einer neuen beruflichen Herausforderung im Consulting? Wir freuen uns über Deine Bewerbung!
+[p] Jetzt bewerben
+[h2] Wie Du bei uns einsteigen kannst
+[p] Wir sind stetig auf der Suche nach motivierten und wissbegierigen Mitarbeiter:innen, die gemeinsam mit uns die Zukunft der mpcg gestalten wollen. Dabei bieten wir Dir nicht nur ein breites Spektrum an Einstiegsmöglichkeiten, sondern auch die Möglichkeit, Dich fachlich, und persönlich weiterzuentwickeln.
+[p] Egal ob als Praktikant:in, Werkstudent:in oder als Senior Consultant - jeder bekommt bei uns die Möglichkeit über sich hinauszuwachsen.
+[h3] Deine Einstiegsmöglichkeiten:
+[h2] Wie wir Dich weiterentwickeln
+[h3] Fachliche Weiterenticklung durch eine steile Lernkurve
+[p] Wir ermöglichen Dir, Dich kontinuierlich fachlich weiterzuentwickeln und Deine Kompetenzen als Berater:in in kurzer Zeit zu steigern. Dabei werden Deine Interessengebiete eingehend berücksichtigt, damit Du Dich genau in den Themen weiterentwickelst, die für Dich das größte Entwicklungspotenzial erbringen.
+[p] Durch die Vielfalt an Projekten und Kunden bist Du ständig neuen Herausforderungen ausgesetzt, die Deine Skills umfassend erweitern. Zudem gibt es bei uns gute Aufstiegsmöglichkeiten, die Deine Entwicklung gebührend widerspiegeln.
+[h3] Persönliche Entwicklung durch viel Eigenverantwortung
+[p] Bei uns erhältst Du die Möglichkeit, selbstständig oder in kleinen Teams an herausfordernden Projekten zu arbeiten und dabei wichtige Entscheidungen zu treffen, die oft den jeweiligen Projektverlauf maßgeblich beeinflussen.
+[p] Durch die Übernahme von Eigenverantwortung wächst nicht nur Dein fachliches Know-how, sondern auch Deine persönlichen Fähigkeiten. Dazu gehört ein ausgeprägter Sinn für Selbstorganisation, Deine Problemlösungskompetenz und auch Dein Selbstvertrauen, vor allem im Rahmen von Präsentationen vor Kunden.
+[h2] Wie Du Dich bei uns bewerben kannst
+[p] Auf der Seite "Vakante Stellen" findest Du unsere aktuellen, freien Positionen.
+[p] Übrigens: Die Erstellung eines Anschreibens ersparen wir Dir! Wenn Du Dich für eine der Positionen interessierst, sende uns gerne Deinen Lebenslauf, Deinen möglichen Einsatzzeitraum und aussagekräftige Zeugnisse per E-Mail anbewerbung@mpcg.de. Bitte gib Deine gewünschte Position in der Betreffzeile Deiner E-Mail an.
+[p] Jetzt bewerben
+[h2] Was Dich bei uns erwartet
+[h3] Über uns
+[h3] Unsere Mission
+[h3] Unser Ansatz
+[h3] Unsere Werte & Kultur
+[h3] Nachhaltigkeit
+[h3] Diversity
+[h3] Führende Unternehmensberatung für erfolgreiche Transformation
+[p] Wir sind eine führende, umsetzungsstarke Unternehmensberatung mit Sitz im Herzen von Köln. Wir begleiten Unternehmen in ihren Veränderungsprozessen ganzheitlich - von der Strategieentwicklung bis hin zur finalen Umsetzung.
+[p] Unser hoch motiviertes Team aus kreativen Digital Natives und praxiserfahrenen Senior Experts vereint das Beste beider Welten: frisches Wissen, innovative Ideen und digitale Exzellenz kombiniert mit langjähriger, unternehmerischer Erfahrung und analoger Bewährtheit.
+[h3] Das wollen wir erreichen
+[p] Unser Leitsatz „Leading Transformation“ spricht für sich: In einer sich stetig verändernden Welt mit dynamischen Marktbedingungen müssen sich Unternehmen anpassen, um wettbewerbsfähig zu bleiben.
+[p] Unsere Mission ist es, Unternehmen in ihren notwendigen Veränderungsprozessen erfolgreich zu begleiten, immer mit dem Ziel, ihre Wertschöpfung nachhaltig zu steigern.
+[h3] Das macht uns besonders
+[p] Unser Ansatz ist so einzigartig wie überzeugend: Wir konzipieren nicht nur zukunftsfähige Strategien, sondern sorgen dafür, dass sie erfolgreich umgesetzt werden.
+[p] Dabei arbeiten wir immer eng und auf Augenhöhe mit unseren Kunden zusammen und werden so selbst ein aktiver Teil der Teams.
+[p] Zudem gehen wir in allen Projekten sehr analytisch und datengetrieben vor, aber setzen gleichzeitig auf unsere wilden Ideen und starke „out-of-the-box“-Ansätze.
+[h3] Das ist uns wichtig
+[p] Wir sind teamfokussiert:Unser starkesWir-Gefühlzeichnet uns aus. Wir arbeiten immer interdisziplinär, respektvoll und mit viel Wertschätzung zusammen. Dazu gehört auch unsere offene Feedback-Kultur, die für uns alle den ersten Schritt zum persönlichen Wachstum ausmacht, aber auch immer unser Team als Ganzes weiterentwickelt.
+[p] Wir sind offen:Unser Unternehmen steht für Vielfalt. Sehr wichtig ist für uns der Blick über den Tellerrand: Wir sind unvoreingenommen, vorurteilsfrei und offen gegenüber allen Ideen, Perspektiven und Meinungen. So lernen wir voneinander und ergänzen uns gegenseitig, um das bestmögliche Ergebnis für unsere Kunden zu erzielen.
+[p] Wir sind empathisch:Wir setzen immerden Menschen in den Fokus: unsere Mitarbeiter:innen, unsere Kunden und die Kunden unserer Kunden. Wir bauen oft eine persönliche Verbindung zu unseren Kunden auf und verstehen so deren Bedürfnisse in der Tiefe. Dadurch schaffen wir es, maßgeschneiderte Lösungen zu entwickeln, die unsere Kunden wirklich weiterbringen.
+[p] Wir sind leistungsorientiert:Wir haben einen klaren Leistungsanspruch an uns selbst und an unsere Arbeit. Egal ob in der Arbeit mit unseren Kunden oder in der Arbeit im Team: Unser Anspruch ist es, immer „top-notch“ Leistungen mit herausragenden Ergebnissen abzuliefern - und dabei die Erwartungen unserer Kunden zu übertreffen.
+[h3] Das liegt uns am Herzen
+[p] Wir unterstützen Unternehmen nicht nur dabei, ihreNachhaltigkeitsperformancezu verbessern, sondern streben auch danach, nachhaltige Praktiken in unserem Arbeitsalltag zu etablieren. Wir erkennen die Dringlichkeit des Klimawandels und die Notwendigkeit, verantwortungsvoll mit den begrenzten Ressourcen unseres Planeten umzugehen.
+[p] Um nachhaltiges Zusammenarbeiten sicherzustellen, haben wir eine Reihe von Maßnahmen in unsere Geschäftsabläufe integriert und streben danach, in Zukunft weitere Maßnahmen zu implementieren. Aktuelle Maßnahmen umfassen:
+[li] Bezuschussung des Deutschlandtickets zur Förderung der Nutzung des ÖPNVs
+[li] Home Office Möglichkeit zur Reduzierung von Emissionen durch Anfahrts- und Abfahrtswege
+[li] Nutzung von energiesparsamen Geräten und CO2-freundlichem Strom
+[li] Reparatur gebrauchter Bürogegenstände, wie z. B. Hardware
+[li] Weiterverkauf von nicht mehr benötigter Büroausstattung
+[li] Mülltrennung durch geeignete Müllbehälter
+[li] Vermeidung von Flugreisen und Nutzung von Bahnreisen und Car-Sharing
+[p] Des Weiteren treiben wir das Thema Nachhaltigkeit aktiv in unseren Beratungsprojekten voran, indem wir unseren Kunden helfen, ihre Auswirkungen auf die Umwelt zu ermitteln, um nachhaltige Geschäftspraktiken zu entwickeln und umzusetzen. Wir unterstützen sie zum Beispiel dabei, umweltfreundlichere Produktionsprozesse zu implementieren, Ressourceneffizienz zu maximieren und nachhaltige Lieferketten aufzubauen.
+[h3] Das liegt uns am Herzen
+[p] Bei uns steht immerder Mensch im Fokus. Wir erkennen die unschätzbaren Vorteile, die ein vielfältiges Team mit sich bringt. Wir sind davon überzeugt, dass uns unterschiedliche Hintergründe, Perspektiven und Erfahrungen bereichern - in unserer Kreativität, Innovationskraft und Problemlösungsfähigkeit.
+[p] Um die Vielseitigkeit bei mpcg zu fördern, implementieren wir gezielte Maßnahmen in allen Bereichen unseres Unternehmens. Dies umfasst einen inklusiven Einstellungsprozess, der darauf abzielt, Kandidat:innen verschiedener Hintergründe anzuziehen.
+[p] Darüber hinaus fördern wir eine offene und respektvolle Unternehmenskultur, die es Mitarbeiter:innen ermöglicht, sich frei auszudrücken und ihre einzigartigen Perspektiven einzubringen. Insgesamt betrachten wir Diversity nicht nur als eine ethische Verpflichtung, sondern auch als eine strategische Priorität, die uns dabei hilft, erfolgreich zu sein und einen positiven Einfluss auf unsere Mitarbeiter, Kunden und die Gesellschaft insgesamt zu haben.
+[h2] Was Dich bei uns erwartet
+[h3] Über uns
+[h3] Führende Unternehmensberatung für erfolgreiche Transformation
+[p] Wir sind eine führende, umsetzungsstarke Unternehmensberatung mit Sitz im Herzen von Köln. Wir begleiten Unternehmen in ihren Veränderungsprozessen ganzheitlich - von der Strategieentwicklung bis hin zur finalen Umsetzung.
+[p] Unser hoch motiviertes Team aus kreativen Digital Natives und praxiserfahrenen Senior Experts vereint das Beste beider Welten: frisches Wissen, innovative Ideen und digitale Exzellenz kombiniert mit langjähriger, unternehmerischer Erfahrung und analoger Bewährtheit.
+[h3] Unsere Mission
+[h3] Das wollen wir erreichen
+[p] Unser Leitsatz „Leading Transformation“ spricht für sich: In einer sich stetig verändernden Welt mit dynamischen Marktbedingungen müssen sich Unternehmen anpassen, um wettbewerbsfähig zu bleiben.
+[p] Unsere Mission ist es, Unternehmen in ihren notwendigen Veränderungsprozessen erfolgreich zu begleiten, immer mit dem Ziel, ihre Wertschöpfung nachhaltig zu steigern.
+[h3] Unser Ansatz
+[h3] Das macht uns besonders
+[p] Unser Ansatz ist so einzigartig wie überzeugend: Wir konzipieren nicht nur zukunftsfähige Strategien, sondern sorgen dafür, dass sie erfolgreich umgesetzt werden.
+[p] Dabei arbeiten wir immer eng und auf Augenhöhe mit unseren Kunden zusammen und werden so selbst ein aktiver Teil der Teams.
+[p] Zudem gehen wir in allen Projekten sehr analytisch und datengetrieben vor, aber setzen gleichzeitig auf unsere wilden Ideen und starke „out-of-the-box“-Ansätze.
+[h3] Unsere Werte & Kultur
+[h3] Das ist uns wichtig
+[p] Wir sind teamfokussiert:Unser starkesWir-Gefühlzeichnet uns aus. Wir arbeiten immer interdisziplinär, respektvoll und mit viel Wertschätzung zusammen. Dazu gehört auch unsere offene Feedback-Kultur, die für uns alle den ersten Schritt zum persönlichen Wachstum ausmacht, aber auch immer unser Team als Ganzes weiterentwickelt.
+[p] Wir sind offen:Unser Unternehmen steht für Vielfalt. Sehr wichtig ist für uns der Blick über den Tellerrand: Wir sind unvoreingenommen, vorurteilsfrei und offen gegenüber allen Ideen, Perspektiven und Meinungen. So lernen wir voneinander und ergänzen uns gegenseitig, um das bestmögliche Ergebnis für unsere Kunden zu erzielen.
+[p] Wir sind empathisch:Wir setzen immerden Menschen in den Fokus: unsere Mitarbeiter:innen, unsere Kunden und die Kunden unserer Kunden. Wir bauen oft eine persönliche Verbindung zu unseren Kunden auf und verstehen so deren Bedürfnisse in der Tiefe. Dadurch schaffen wir es, maßgeschneiderte Lösungen zu entwickeln, die unsere Kunden wirklich weiterbringen.
+[p] Wir sind leistungsorientiert:Wir haben einen klaren Leistungsanspruch an uns selbst und an unsere Arbeit. Egal ob in der Arbeit mit unseren Kunden oder in der Arbeit im Team: Unser Anspruch ist es, immer „top-notch“ Leistungen mit herausragenden Ergebnissen abzuliefern - und dabei die Erwartungen unserer Kunden zu übertreffen.
+[h3] Nachhaltigkeit
+[h3] Das liegt uns am Herzen
+[p] Wir unterstützen Unternehmen nicht nur dabei, ihreNachhaltigkeitsperformancezu verbessern, sondern streben auch danach, nachhaltige Praktiken in unserem Arbeitsalltag zu etablieren. Wir erkennen die Dringlichkeit des Klimawandels und die Notwendigkeit, verantwortungsvoll mit den begrenzten Ressourcen unseres Planeten umzugehen.
+[p] Um nachhaltiges Zusammenarbeiten sicherzustellen, haben wir eine Reihe von Maßnahmen in unsere Geschäftsabläufe integriert und streben danach, in Zukunft weitere Maßnahmen zu implementieren. Aktuelle Maßnahmen umfassen:
+[li] Bezuschussung des Deutschlandtickets zur Förderung der Nutzung des ÖPNVs
+[li] Home Office Möglichkeit zur Reduzierung von Emissionen durch Anfahrts- und Abfahrtswege
+[li] Nutzung von energiesparsamen Geräten und CO2-freundlichem Strom
+[li] Reparatur gebrauchter Bürogegenstände, wie z. B. Hardware
+[li] Weiterverkauf von nicht mehr benötigter Büroausstattung
+[li] Mülltrennung durch geeignete Müllbehälter
+[li] Vermeidung von Flugreisen und Nutzung von Bahnreisen und Car-Sharing
+[p] Des Weiteren treiben wir das Thema Nachhaltigkeit aktiv in unseren Beratungsprojekten voran, indem wir unseren Kunden helfen, ihre Auswirkungen auf die Umwelt zu ermitteln, um nachhaltige Geschäftspraktiken zu entwickeln und umzusetzen. Wir unterstützen sie zum Beispiel dabei, umweltfreundlichere Produktionsprozesse zu implementieren, Ressourceneffizienz zu maximieren und nachhaltige Lieferketten aufzubauen.
+[h3] Diversity
+[h3] Das liegt uns am Herzen
+[p] Bei uns steht immerder Mensch im Fokus. Wir erkennen die unschätzbaren Vorteile, die ein vielfältiges Team mit sich bringt. Wir sind davon überzeugt, dass uns unterschiedliche Hintergründe, Perspektiven und Erfahrungen bereichern - in unserer Kreativität, Innovationskraft und Problemlösungsfähigkeit.
+[p] Um die Vielseitigkeit bei mpcg zu fördern, implementieren wir gezielte Maßnahmen in allen Bereichen unseres Unternehmens. Dies umfasst einen inklusiven Einstellungsprozess, der darauf abzielt, Kandidat:innen verschiedener Hintergründe anzuziehen.
+[p] Darüber hinaus fördern wir eine offene und respektvolle Unternehmenskultur, die es Mitarbeiter:innen ermöglicht, sich frei auszudrücken und ihre einzigartigen Perspektiven einzubringen. Insgesamt betrachten wir Diversity nicht nur als eine ethische Verpflichtung, sondern auch als eine strategische Priorität, die uns dabei hilft, erfolgreich zu sein und einen positiven Einfluss auf unsere Mitarbeiter, Kunden und die Gesellschaft insgesamt zu haben.
+[h2] Du hast Fragen? Wir haben Antworten.
+[h3] Bewerbung:
+[h3] Dokumente:
+[h3] Auswahlverfahren:
+[h3] Sonstiges:
+[p] Du möchtest Teil unseres Teams werden? Wir freuen uns auf Deine Bewerbung!
+[h2] 0221 670 021 20
+[h2] info@mpcg.de
+[p] Michael Prothmann Consulting GroupMoltkestr. 99, 50674 Köln
+[li] Optionen verwalten
+[li] Dienste verwalten
+[li] Verwalten von {vendor_count}-Lieferanten
+[li] Lese mehr über diese Zwecke
+[li] {title}
+[li] {title}
+[li] {title}
+
+=== IMAGES ===
+
+
+=== BACKGROUND IMAGES ===
+
+[bg] https://mpcg.de/wp-content/uploads/2024/03/mpcg-karriere-desktop.jpg
+
+=== ELEMENTOR TOGGLES (Einstiegslevel + FAQ) ===
+
+
+Q: Praktikum
+A: Wenn Du während Deiner Semesterferien oder aufgrund eines Praxissemesters erste praktische Erfahrungen sammeln möchtest, bewirb Dich gerne auf ein Praktikum (40h/Woche) bei uns. Wir bieten sowohl Pflichtpraktika als auch freiwillige Praktika, mit einer Praktikumsdauer von mindestens drei Monaten, an.
+
+Q: Werkstudentenjob
+A: Wenn Du parallel zu Deinem Studium eine Teilzeitstelle (20h/Woche) anfangen möchtest, um Deine Arbeitserfahrung zu vertiefen, freuen wir uns über Deine Bewerbung als Werkstudent:in.
+
+Q: Junior Consultant
+A: Hast Du bereits erste Berufserfahrungen durch diverse Praktika und Werkstudentenjobs gesammelt, freuen wir uns, Dich als Junior Consultant (40h/Woche) in Vollzeitbeschäftigung begrüßen zu dürfen.
+
+Q: Consultant
+A: Wenn Du schon ein bis zwei Jahre Vollzeit-Berufserfahrung im Consulting oder in einem ähnlichen Bereich gesammelt hast, hast Du die Möglichkeit bei uns direkt als Consultant (40h/Woche) einzusteigen.
+
+Q: Senior Consultant
+A: Wenn Du schon viele Jahre Erfahrung in der Unternehmensberatung gesammelt, bereits Führungsaufgaben im Unternehmen übernommen und souveräne Projektmanagement-Skills generiert hast, dann freuen wir uns über Deine Bewerbung als Senior Consultant (40h/Woche).
+
+Q: Wer ist Ansprechpartner für Bewerbungen?
+A: Ansprechpartner für Bewerbungen ist unser HR-ManagerKumar Gürtler. Am besten erreichbar ist er via E-Mail:bewerbung@mpcg.de.
+
+Q: Wie bewerbe ich mich?
+A: Auf der Seite „Vakante Stellen“ findest Du unsere aktuellen, freien Positionen.Wenn Du Dich für eine der Positionen interessierst, sende uns gerne DeinenLebenslauf, Deinen möglichenEinsatzzeitraumund aussagekräftigeZeugnisseper E-Mail anbewerbung@mpcg.de. Die Erstellung einesAnschreibensersparen wir Dir! Bitte gib Deine gewünschte Position in der Betreffzeile Deiner E-Mail an.
+
+Q: Kann ich mich telefonisch im Voraus über eine Stelle informieren?
+A: Natürlich. Du erreichst uns unter:0221 670 021 20.
+
+Q: Werden Initiativbewerbungen akzeptiert?
+A: Ja, wir nehmen Initiativbewerbungen sehr gerne entgegen! Wenn Du denkst, dass Du gut zu uns passt und etwas Einzigartiges beitragen kannst, zögere nicht, uns Deine Unterlagen zuzusenden. Wir sind immer auf der Suche nach talentierten und motivierten Personen, die unser Team bereichern möchten. Normalerweise verzichten wir auf einAnschreiben. Im Fall einer Initiativbewerbung ist dieses jedoch notwendig.
+
+Q: Werden Quereinsteiger:innen akzeptiert?
+A: Ja, absolut! Wir freuen uns sehr über Bewerbungen von Quereinsteiger:innen. Bei uns zählt nicht nur der traditionelle Karriereweg, sondern vor allem DeineMotivation,Fähigkeitenund diefrischen Perspektiven, die Du in unser Team einbringen kannst.
+
+Q: Welche Dokumente muss ich meiner Bewerbung anfügen?
+A: EinAnschreibenist bei uns freiwillig. Obligatorisch sind:Lebenslauf,Abiturzeugnis,akademische Zeugnisse, ggf. aktuelles Transcript of Record, ggf. sonstige, interessante Bescheinigungen und Zertifikate.
+
+Q: Welche Dateitypen werden im Bewerbungsprozess akzeptiert?
+A: Bitte reiche alle Dokumente imPDF-Formatein.
+
+Q: Wann kann ich nach Versand meiner Bewerbung mit einer Antwort rechnen?
+A: Wir bemühen uns, Dir spätestenseine Wochenach Eingang Deiner Bewerbungsunterlagen eine erste Rückmeldung zu geben.
+
+Q: Was erwartet mich im Bewerbungsgespräch/Bewerbungsprozess?
+A: Unser Bewerbungsprozess ist inzwei Stufenunterteilt. In der ersten Stufe vereinbaren wir mit dir einTeams-Meeting, bei dem es primär darum geht, dass wir uns gegenseitig kennenlernen. In diesem Gespräch hast Du die Möglichkeit,Dich, Deinen LebenslaufundDeine Motivationin Ruhe vorzustellen. In der zweiten Stufe laden wir Dich dann zu einem zweiten Gespräch in unserBüroein. In diesem Gespräch geht es darum, deinefachlichen Kompetenzenauf den Prüfstand zu stellen. Dazu erhältst Du von uns ein bis zweiCases, die Du uns dann vor Ort präsentierst.
+
+Q: Wann erhalte ich Feedback nach Bewerbungsgesprächen?
+A: Wir legen viel Wert auf eineschnelle Rückmeldungan unsere Bewerber:innen. Daher kannst Duinnerhalb einer Wochemit einer Rückmeldung von uns rechnen.
+
+Q: Welche Arten von Praktika werden angeboten?
+A: Wir bieten sowohlfreiwillige Praktika, zum Beispiel während der Semesterferien, als auchPflichtpraktikaim Rahmen eines Praxissemesters an.
+
+Q: Wie lange dauert ein Praktikum?
+A: Die Mindestpraktikumsdauer beträgtdrei Monate. Wir empfehlen jedoch eine Praktikumslänge vonsechs Monaten.Eine Übernahme als Werkstudierende:r (20h/Woche) oder Junior Consultant in Festanstellung (40h/Woche) ist möglich.
+
+Q: Kann ich bei der mpcg Abschlussarbeiten schreiben?
+A: Jein. Da unser Geschäftsführer, Michael Prothmann, neben der mpcg auch Dozent an derCologne Business School (CBS)ist, haben (leider) nur Studierende der CBS diese Möglichkeit. Voraussetzung ist, dass mindestens ein Kurs bei Herrn Prothmann besucht wird oder wurde. Bei Interesse, wende Dich gerne direkt an Herrn Prothmann über seine CBS E-Mail Adresse.
+
+Q: Mit welchem Lohn/Gehalt kann ich rechnen?
+A: Obwohl die mpcg ein relativ kleines Unternehmen ist, bieten wir trotzdemwettbewerbsfähige Löhne und Gehälteran. Diese orientieren sich an Deiner akademischen Ausbildung (Bachelor/Master), Deinen bisherigen Erfahrungen und Deinen Fähigkeiten.
+
+Q: Ist das Arbeiten aus dem Home Office möglich?
+A: Prinzipiell, ja. Wir haben zwar keine offizielle Home Office Regelung, aber wenn es Deine Aufgaben zulassen, dass Du diese auch gut von Zuhause aus erledigen kannst, ist Home Officenach Absprachemit Deinen Teamkollegen möglich. Generell legen wir allerdings viel Wert auf einepersönliche Zusammenarbeitin unserem Büro mitten im schönenbelgischen Viertel.
+
+Q: Welche Corporate Benefits werden angeboten?
+A: Eine wertschätzende Zusammenarbeit liegt uns sehr am Herzen. Daher veranstalten wir regelmäßigTeameventsund gehen einmal pro Quartal gemeinsam in einem hochwertigenRestaurantessen. Außerdem erhält jede(r) Mitarbeiter:in zu seinem Einstieg, zum Geburtstag und zu Weihnachten einPräsent. Daneben bezuschussen wir dasDeutschlandticket.
+
+=== TESTIMONIALS ===
+
+
+QUOTE: "mpcg vereint ein hervorragendes Team, interessante Projekte und hohe Eigenverantwortung. Diese Zeit hat mich persönlich und fachlich bereichert und mir eine steile Lernkurve ermöglicht."
+NAME: Jan Hoven
+TITLE: Consultant
+
+QUOTE: "Tolles Team, spannende Projekte, viel Eigenverantwortung und eine steile Lernkurve. Bei mpcg konnte ich viel mitnehmen!"
+NAME: Pia Schmidt
+TITLE: Consultant
+
+QUOTE: "Die mpcg war für mich nicht nur ein tolles Team mit breitem Wissen, sondern bot mir auch die Chance, meine Stärken zu nutzen, um in spannenden Projekten viel Verantwortung zu übernehmen und mich fachlich wie persönlich unter großartiger Führung weiterentwickeln zu dürfen."
+NAME: Marie Schlottbom
+TITLE: Consultant
+
+QUOTE: "mpcg war für mich der perfekte Berufseinstieg. Neben spannender und abwechslungsreicher Projektarbeit steht die persönliche Entwicklung im Mittelpunkt. Ich konnte jeden Bereich des Unternehmens mitgestalten, Ideen einbringen und mich ausprobieren. Gleichzeitig ist Michael ein toller Mentor, um fachlich und persönlich die eigenen Stärken weiter auszubauen. Danke für die tolle Zeit!"
+NAME: Isabell Winden
+TITLE: Consultant
+
+QUOTE: "Was mir in meiner Zeit bei der mpcg besonders gefallen hat, war die besondere, enge Zusammenarbeit mit den Kunden."
+NAME: Ann-Kathrin Lehmann
+TITLE: Consultant
+
+=== EMAIL LINKS ===

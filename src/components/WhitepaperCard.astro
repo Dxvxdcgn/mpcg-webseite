@@ -1,0 +1,33 @@
+---
+import { Icon } from 'astro-icon/components';
+
+interface Props {
+  title: string;
+  description: string;
+  image: string;
+  downloadHref?: string;
+}
+
+const { title, description, image, downloadHref = '/kontakt' } = Astro.props;
+---
+
+<div class="bg-gradient-to-br from-primary to-dark rounded-2xl overflow-hidden relative grain">
+  <div class="grid md:grid-cols-2 gap-0">
+    <div class="p-10 md:p-14 flex flex-col justify-center relative z-10">
+      <div class="tag tag-white mb-6 w-fit">
+        <Icon name="lucide:file-text" class="w-3.5 h-3.5" />
+        White Paper
+      </div>
+      <h3 class="text-xl md:text-2xl font-bold text-white mb-4 leading-snug tracking-tight">{title}</h3>
+      <p class="text-white/50 text-sm leading-relaxed mb-8">{description}</p>
+      <a href={downloadHref} class="inline-flex items-center gap-2 px-6 py-3 bg-accent text-white text-sm font-semibold rounded-full hover:shadow-xl hover:shadow-accent/30 transition-all duration-300 hover:-translate-y-0.5 w-fit">
+        <Icon name="lucide:download" class="w-4 h-4" />
+        Kostenlos herunterladen
+      </a>
+    </div>
+    <div class="relative min-h-[250px] md:min-h-0">
+      <img src={image} alt={title} class="absolute inset-0 w-full h-full object-cover opacity-60" loading="lazy" />
+      <div class="absolute inset-0 bg-gradient-to-r from-primary/80 to-transparent md:from-primary/50"></div>
+    </div>
+  </div>
+</div>

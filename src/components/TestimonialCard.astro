@@ -1,0 +1,32 @@
+---
+import { Icon } from 'astro-icon/components';
+
+interface Props {
+  quote: string;
+  name: string;
+  role: string;
+  image?: string;
+}
+
+const { quote, name, role, image } = Astro.props;
+---
+
+<div class="bg-white rounded-2xl p-8 border border-gray-100/80 hover:border-accent/20 transition-all duration-500">
+  <Icon name="lucide:quote" class="w-8 h-8 text-accent/20 mb-4" />
+  <blockquote class="text-text-light leading-relaxed mb-6">
+    „{quote}"
+  </blockquote>
+  <div class="flex items-center gap-4">
+    {image ? (
+      <img src={image} alt={name} class="w-12 h-12 rounded-full object-cover" loading="lazy" />
+    ) : (
+      <div class="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center shrink-0">
+        <span class="text-accent font-bold text-lg">{name.charAt(0)}</span>
+      </div>
+    )}
+    <div>
+      <h4 class="font-semibold text-primary">{name}</h4>
+      <p class="text-sm text-text-light">{role}</p>
+    </div>
+  </div>
+</div>

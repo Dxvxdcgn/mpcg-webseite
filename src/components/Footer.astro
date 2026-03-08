@@ -1,0 +1,140 @@
+---
+import { Icon } from 'astro-icon/components';
+
+const currentYear = new Date().getFullYear();
+
+const footerLinks = {
+  leistungen: [
+    { label: 'Agilere Organisation', href: '/leistungen/agile-organisation' },
+    { label: 'Effizientere Prozesse', href: '/leistungen/effizientere-prozesse' },
+    { label: 'Mehr Sales', href: '/leistungen/mehr-sales' },
+    { label: 'Nachhaltigkeit', href: '/leistungen/nachhaltigkeit' },
+    { label: 'Bessere Strategie', href: '/leistungen/bessere-strategie' },
+  ],
+  unternehmen: [
+    { label: 'Wer wir sind', href: '/wer-wir-sind' },
+    { label: 'Erfolge', href: '/erfolge' },
+    { label: 'Karriere', href: '/karriere' },
+    { label: 'Insights', href: '/insights' },
+    { label: 'Kontakt', href: '/kontakt' },
+  ],
+  rechtliches: [
+    { label: 'Impressum', href: '/impressum' },
+    { label: 'Datenschutz', href: '/datenschutz' },
+    { label: 'AGB', href: '/agb' },
+  ],
+};
+---
+
+<footer class="bg-dark text-white relative">
+  <!-- CTA Section -->
+  <div class="relative overflow-hidden grain">
+    <div class="absolute inset-0">
+      <div class="absolute top-0 left-1/4 w-[600px] h-[600px] bg-accent/[0.06] rounded-full blur-[120px]"></div>
+      <div class="absolute bottom-0 right-1/4 w-[400px] h-[400px] bg-accent-light/[0.04] rounded-full blur-[100px]"></div>
+    </div>
+    <div class="container-custom py-24 md:py-32 relative">
+      <div class="text-center max-w-3xl mx-auto">
+        <h2 class="text-3xl md:text-5xl lg:text-6xl font-extrabold mb-6 tracking-tight">
+          Bereit für Ihre <span class="gradient-text">Transformation?</span>
+        </h2>
+        <p class="text-lg text-white/50 mb-12 font-light">
+          Entwickeln Sie Ihr Unternehmen erfolgreich weiter. Wir freuen uns auf den Austausch mit Ihnen.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="/kontakt" class="btn-primary">
+            Kontakt aufnehmen
+            <Icon name="lucide:arrow-right" class="w-5 h-5 ml-2" />
+          </a>
+          <a href="tel:+4922167002120" class="btn-outline-white">
+            <Icon name="lucide:phone" class="w-5 h-5 mr-2" />
+            0221 670 021 20
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Footer -->
+  <div class="section-divider"></div>
+  <div class="container-custom py-16 md:py-20">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
+      <div class="lg:col-span-1">
+        <a href="/" class="inline-block mb-6">
+          <img src="/imgi_14_mpcg-logo-okt-2023-PNG-weiss-2048x634.png" alt="MPCG Logo" class="h-7 opacity-80" />
+        </a>
+        <p class="text-white/40 text-sm leading-relaxed mb-6">
+          Wir sind eine führende, umsetzungsstarke Unternehmensberatung mit Sitz im Herzen von Köln. Mit unserem Ansatz „Leading Transformation" begleiten wir Unternehmen ganzheitlich.
+        </p>
+        <div class="flex items-center gap-3">
+          <a href="https://www.linkedin.com/company/mpcg-koeln/" target="_blank" rel="noopener" class="w-9 h-9 bg-white/[0.06] rounded-lg flex items-center justify-center hover:bg-accent transition-all duration-300 border border-white/[0.08] hover:border-accent" aria-label="LinkedIn">
+            <Icon name="lucide:linkedin" class="w-4 h-4" />
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="text-white/90 font-semibold text-xs uppercase tracking-[0.15em] mb-6">Leistungen</h3>
+        <ul class="space-y-2.5">
+          {footerLinks.leistungen.map((link) => (
+            <li>
+              <a href={link.href} class="text-white/40 text-sm hover:text-accent transition-colors duration-200">
+                {link.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-white/90 font-semibold text-xs uppercase tracking-[0.15em] mb-6">Unternehmen</h3>
+        <ul class="space-y-2.5">
+          {footerLinks.unternehmen.map((link) => (
+            <li>
+              <a href={link.href} class="text-white/40 text-sm hover:text-accent transition-colors duration-200">
+                {link.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-white/90 font-semibold text-xs uppercase tracking-[0.15em] mb-6">Kontakt</h3>
+        <div class="space-y-3 text-sm text-white/40">
+          <p>Michael Prothmann Consulting Group</p>
+          <p>Moltkestr. 99<br />50674 Köln</p>
+          <p>
+            <a href="tel:+4922167002120" class="hover:text-accent transition-colors">0221 670 021 20</a>
+          </p>
+          <p>
+            <a href="mailto:info@mpcg.de" class="hover:text-accent transition-colors">info@mpcg.de</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gender Hinweis -->
+  <div class="section-divider"></div>
+  <div class="container-custom py-4">
+    <p class="text-white/25 text-xs text-center leading-relaxed">
+      Vielfalt, Chancengleichheit und Inklusion stehen bei uns im Unternehmen an oberster Stelle. Falls Sie an mancher Stelle das generische Maskulin feststellen, dient dies ausschließlich der Lesbarkeit.
+    </p>
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="section-divider"></div>
+  <div class="container-custom py-6 flex flex-col md:flex-row items-center justify-between gap-4">
+    <p class="text-white/30 text-sm">
+      &copy; {currentYear} Michael Prothmann Consulting GmbH
+    </p>
+    <div class="flex items-center gap-6">
+      {footerLinks.rechtliches.map((link) => (
+        <a href={link.href} class="text-white/30 text-sm hover:text-accent transition-colors">
+          {link.label}
+        </a>
+      ))}
+    </div>
+  </div>
+</footer>

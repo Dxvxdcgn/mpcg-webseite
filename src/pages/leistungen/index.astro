@@ -1,0 +1,28 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Hero from '../../components/Hero.astro';
+import ServiceCard from '../../components/ServiceCard.astro';
+---
+
+<Layout title="Leistungen" description="Unsere Leistungen: Agilere Organisation, Effizientere Prozesse, Mehr Sales, Nachhaltigkeit, Bessere Strategie.">
+
+  <Hero
+    title='Unser <span class="gradient-text">Leistungsspektrum</span>'
+    subtitle="Was wir tun"
+    description="Wir haben ein umfassendes und bewährtes Leistungsspektrum, um die Transformation in Ihrem Unternehmen erfolgreich umzusetzen und die Wertschöpfung Ihres Unternehmens zu steigern."
+    compact={true}
+  />
+
+  <section class="section-padding bg-white">
+    <div class="container-custom">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 fade-in">
+        <ServiceCard title="Agilere Organisation" description="Veränderung, aber so, dass sie alle mittragen. Mit unseren Ansätzen bringen wir Mensch und Technik im Veränderungsprozess effektiv zusammen und machen Ihre Organisation zum Vorreiter in der Branche." icon="lucide:refresh-cw" href="/leistungen/agile-organisation" image="/imgi_57_Agilere-Organisation-Teaser-Homepage.jpg" />
+        <ServiceCard title="Effizientere Prozesse" description="Vom Problemthema zum Stolzfaktor – Mit starken Ansätzen die Prozesslandschaft umkrempeln und optimieren." icon="lucide:zap" href="/leistungen/effizientere-prozesse" image="/imgi_58_Effizientere-Prozesse-Teaser-Homepage.jpg" />
+        <ServiceCard title="Mehr Sales" description="Gemeinsam bringen wir Ihren Vertrieb an die Spitze – digital und auf allen Touchpoints." icon="lucide:trending-up" href="/leistungen/mehr-sales" image="/imgi_59_Mehr-Sales-Teaser-Homepage-2.jpg" />
+        <ServiceCard title="Tiefgreifende Nachhaltigkeit" description="Gemeinsam machen wir Ihr Unternehmen fit für die Herausforderungen der Zukunft. Wirkungsvolle Beiträge fürs Klima und mehr Wertschöpfung gehen dabei Hand in Hand." icon="lucide:sprout" href="/leistungen/nachhaltigkeit" image="/imgi_60_Tiefgreifende-Nachhaltigkeit-Teaser-Homepage.jpg" />
+        <ServiceCard title="Bessere Strategie" description="Von Anfang bis Ende – Gemeinsam entwickeln wir ganzheitliche Strategien, die Ihr Unternehmen für alle Herausforderungen der Zukunft standhaft machen." icon="lucide:compass" href="/leistungen/bessere-strategie" image="/imgi_61_Bessere-Strategie-Teaser-Homepage-2.jpg" />
+      </div>
+    </div>
+  </section>
+
+</Layout>

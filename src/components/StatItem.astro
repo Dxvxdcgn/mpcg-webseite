@@ -1,0 +1,16 @@
+---
+interface Props {
+  number: string;
+  label: string;
+  suffix?: string;
+}
+
+const { number, label, suffix = '' } = Astro.props;
+---
+
+<div class="text-center">
+  <div class="text-4xl md:text-5xl font-black text-accent-light mb-2 tracking-tight">
+    {number}<span class="text-accent-light/60">{suffix}</span>
+  </div>
+  <p class="text-xs text-white/40 font-medium uppercase tracking-[0.15em]">{label}</p>
+</div>

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mpcg.de/sitemap-index.xml
+
+# Disallow admin/internal paths
+Disallow: /api/

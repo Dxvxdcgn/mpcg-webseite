@@ -1,0 +1,181 @@
+---
+import Layout from './Layout.astro';
+import Hero from '../components/Hero.astro';
+import WhitepaperCard from '../components/WhitepaperCard.astro';
+import { Icon } from 'astro-icon/components';
+
+interface Competence {
+  title: string;
+  description: string;
+  icon: string;
+}
+
+interface Reason {
+  icon: string;
+  title: string;
+  text: string;
+}
+
+interface Whitepaper {
+  title: string;
+  description: string;
+  image: string;
+  downloadHref?: string;
+}
+
+interface Props {
+  title: string;
+  heroTitle: string;
+  subtitle: string;
+  description: string;
+  heroImage?: string;
+  introTitle: string;
+  introText: string;
+  goal: string;
+  competences: Competence[];
+  reasons: Reason[];
+  reasonsTitle: string;
+  whitepaper?: Whitepaper;
+  ctaText?: string;
+}
+
+const {
+  title,
+  heroTitle,
+  subtitle,
+  description,
+  heroImage,
+  introTitle,
+  introText,
+  goal,
+  competences,
+  reasons,
+  reasonsTitle,
+  whitepaper,
+  ctaText = 'Sie brauchen Unterstützung? Wir helfen Ihnen gerne.',
+} = Astro.props;
+---
+
+<Layout title={title} description={description}>
+
+  <Hero
+    title={heroTitle}
+    subtitle={subtitle}
+    description={description}
+    ctaText="Jetzt beraten lassen"
+    ctaHref="/kontakt"
+    compact={true}
+    backgroundImage={heroImage}
+  />
+
+  <!-- Intro -->
+  <section class="section-padding bg-white">
+    <div class="container-custom">
+      <div class="max-w-5xl mx-auto fade-in">
+        <div class="grid md:grid-cols-5 gap-12">
+          <div class="md:col-span-3">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-primary mb-6 tracking-tight">{introTitle}</h2>
+            <p class="text-text-light leading-relaxed text-lg font-light">{introText}</p>
+          </div>
+          <div class="md:col-span-2">
+            <div class="bg-gradient-to-br from-accent to-blue-500 rounded-2xl p-8 text-white relative overflow-hidden grain">
+              <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.1),transparent_60%)]" />
+              <div class="flex items-center gap-3 mb-4 relative">
+                <Icon name="lucide:target" class="w-6 h-6" />
+                <h3 class="font-bold text-lg tracking-tight">Das Ziel</h3>
+              </div>
+              <p class="text-white/80 leading-relaxed relative">{goal}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kompetenzen -->
+  <section class="section-padding bg-surface">
+    <div class="container-custom">
+      <div class="text-center mb-16 fade-in">
+        <span class="section-label">Kompetenzen</span>
+        <h2 class="text-3xl md:text-5xl font-extrabold text-primary tracking-tight">Unsere Expertise</h2>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-6xl mx-auto fade-in stagger-children">
+        {competences.map((comp, i) => (
+          <div class="bg-white rounded-2xl p-8 border border-gray-100/80 card-hover glow group">
+            <div class="w-11 h-11 bg-accent/10 rounded-xl flex items-center justify-center mb-5 group-hover:bg-accent transition-colors duration-500">
+              <Icon name={comp.icon} class="w-5 h-5 text-accent group-hover:text-white transition-colors duration-500" />
+            </div>
+            <h3 class="text-xl font-bold text-primary mb-3 tracking-tight">{comp.title}</h3>
+            <p class="text-text-light text-sm leading-relaxed">{comp.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Warum wir -->
+  <section class="section-padding bg-primary text-white relative overflow-hidden grain">
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+      <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-accent/[0.06] rounded-full blur-[120px]"></div>
+      <div class="absolute bottom-0 left-0 w-[300px] h-[300px] bg-accent-light/[0.04] rounded-full blur-[80px]"></div>
+    </div>
+    <div class="container-custom relative">
+      <div class="text-center mb-16 fade-in">
+        <span class="tag tag-white mb-6">Warum MPCG</span>
+        <h2 class="text-3xl md:text-5xl font-extrabold tracking-tight">{reasonsTitle}</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto fade-in stagger-children">
+        {reasons.map((reason) => (
+          <div class="glass-dark rounded-2xl p-8 hover:bg-white/[0.08] transition-all duration-500 hover:border-white/15">
+            <Icon name={reason.icon} class="w-8 h-8 text-accent-light mb-4" />
+            <h3 class="text-xl font-bold mb-3 tracking-tight">{reason.title}</h3>
+            <p class="text-white/50 leading-relaxed text-sm font-light">{reason.text}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- White Paper -->
+  {whitepaper && (
+    <section class="section-padding bg-surface">
+      <div class="container-custom">
+        <div class="text-center mb-12 fade-in">
+          <span class="section-label">Download</span>
+          <h2 class="text-3xl md:text-4xl font-extrabold text-primary tracking-tight">Unser White Paper</h2>
+        </div>
+        <div class="max-w-5xl mx-auto fade-in">
+          <WhitepaperCard
+            title={whitepaper.title}
+            description={whitepaper.description}
+            image={whitepaper.image}
+            downloadHref={whitepaper.downloadHref}
+          />
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- CTA -->
+  <section class="section-padding bg-white">
+    <div class="container-custom text-center fade-in">
+      <h2 class="text-3xl md:text-4xl font-extrabold text-primary mb-6 tracking-tight">{ctaText}</h2>
+      <p class="text-text-light text-lg max-w-2xl mx-auto mb-10 font-light">
+        Kontaktieren Sie uns für ein unverbindliches Erstgespräch.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="/kontakt" class="btn-primary">
+          Kontakt aufnehmen
+          <Icon name="lucide:arrow-right" class="w-5 h-5 ml-2" />
+        </a>
+        <a href="tel:+4922167002120" class="btn-secondary">
+          <Icon name="lucide:phone" class="w-5 h-5 mr-2" />
+          0221 670 021 20
+        </a>
+      </div>
+    </div>
+  </section>
+
+</Layout>

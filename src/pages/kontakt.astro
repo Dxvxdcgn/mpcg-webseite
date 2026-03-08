@@ -1,0 +1,134 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import { Icon } from 'astro-icon/components';
+---
+
+<Layout title="Kontakt" description="Kontaktieren Sie die MPCG – Michael Prothmann Consulting Group, Moltkestr. 99, 50674 Köln. Telefon: 0221 670 021 20.">
+
+  <Hero
+    title='Sprechen wir <span class="gradient-text">darüber</span>'
+    subtitle="Kontakt"
+    description="Kontaktieren Sie uns für ein unverbindliches Erstgespräch. Wir freuen uns darauf, Sie kennenzulernen."
+    compact={true}
+  />
+
+  <section class="section-padding bg-white">
+    <div class="container-custom">
+      <div class="max-w-6xl mx-auto">
+        <div class="grid lg:grid-cols-5 gap-12 fade-in">
+
+          <!-- Contact Form -->
+          <div class="lg:col-span-3">
+            <h2 class="text-2xl font-extrabold text-primary mb-8 tracking-tight">Schreiben Sie uns</h2>
+            <form class="space-y-6" action="#" method="POST">
+              <div class="grid sm:grid-cols-2 gap-6">
+                <div>
+                  <label for="name" class="block text-sm font-medium text-primary mb-2">Name *</label>
+                  <input type="text" id="name" name="name" required class="w-full px-5 py-3.5 bg-surface border border-gray-200/80 rounded-xl text-primary placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-all" placeholder="Ihr Name" />
+                </div>
+                <div>
+                  <label for="company" class="block text-sm font-medium text-primary mb-2">Unternehmen</label>
+                  <input type="text" id="company" name="company" class="w-full px-5 py-3.5 bg-surface border border-gray-200/80 rounded-xl text-primary placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-all" placeholder="Ihr Unternehmen" />
+                </div>
+              </div>
+              <div class="grid sm:grid-cols-2 gap-6">
+                <div>
+                  <label for="email" class="block text-sm font-medium text-primary mb-2">E-Mail *</label>
+                  <input type="email" id="email" name="email" required class="w-full px-5 py-3.5 bg-surface border border-gray-200/80 rounded-xl text-primary placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-all" placeholder="ihre@email.de" />
+                </div>
+                <div>
+                  <label for="phone" class="block text-sm font-medium text-primary mb-2">Telefon</label>
+                  <input type="tel" id="phone" name="phone" class="w-full px-5 py-3.5 bg-surface border border-gray-200/80 rounded-xl text-primary placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-all" placeholder="Ihre Telefonnummer" />
+                </div>
+              </div>
+              <div>
+                <label for="subject" class="block text-sm font-medium text-primary mb-2">Betreff</label>
+                <select id="subject" name="subject" class="w-full px-5 py-3.5 bg-surface border border-gray-200/80 rounded-xl text-primary focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-all">
+                  <option value="">Bitte auswählen</option>
+                  <option value="projekt">Projektanfrage</option>
+                  <option value="karriere">Karriere / Bewerbung</option>
+                  <option value="whitepaper">White Paper Anfrage</option>
+                  <option value="sonstiges">Sonstiges</option>
+                </select>
+              </div>
+              <div>
+                <label for="message" class="block text-sm font-medium text-primary mb-2">Nachricht *</label>
+                <textarea id="message" name="message" rows="5" required class="w-full px-5 py-3.5 bg-surface border border-gray-200/80 rounded-xl text-primary placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-all resize-none" placeholder="Ihre Nachricht an uns..."></textarea>
+              </div>
+              <div class="flex items-start gap-3">
+                <input type="checkbox" id="privacy" name="privacy" required class="mt-1 w-4 h-4 text-accent border-gray-300 rounded focus:ring-accent" />
+                <label for="privacy" class="text-sm text-text-light">
+                  Ich stimme der Verarbeitung meiner Daten gemäß der <a href="/datenschutz" class="text-accent hover:underline">Datenschutzerklärung</a> zu. *
+                </label>
+              </div>
+              <button type="submit" class="btn-primary">
+                Nachricht senden
+                <Icon name="lucide:send" class="w-5 h-5 ml-2" />
+              </button>
+            </form>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="lg:col-span-2">
+            <h2 class="text-2xl font-extrabold text-primary mb-8 tracking-tight">Kontaktdaten</h2>
+
+            <div class="space-y-4">
+              <div class="bg-surface rounded-2xl p-8 border border-gray-100/80">
+                <div class="flex items-start gap-4">
+                  <div class="w-11 h-11 bg-accent/10 rounded-xl flex items-center justify-center shrink-0">
+                    <Icon name="lucide:map-pin" class="w-5 h-5 text-accent" />
+                  </div>
+                  <div>
+                    <h3 class="font-bold text-primary mb-1">Adresse</h3>
+                    <p class="text-text-light text-sm leading-relaxed">
+                      Michael Prothmann Consulting Group<br/>
+                      Moltkestr. 99<br/>
+                      50674 Köln
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-surface rounded-2xl p-8 border border-gray-100/80">
+                <div class="flex items-start gap-4">
+                  <div class="w-11 h-11 bg-accent/10 rounded-xl flex items-center justify-center shrink-0">
+                    <Icon name="lucide:phone" class="w-5 h-5 text-accent" />
+                  </div>
+                  <div>
+                    <h3 class="font-bold text-primary mb-1">Telefon</h3>
+                    <a href="tel:+4922167002120" class="text-accent hover:underline text-sm">0221 670 021 20</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-surface rounded-2xl p-8 border border-gray-100/80">
+                <div class="flex items-start gap-4">
+                  <div class="w-11 h-11 bg-accent/10 rounded-xl flex items-center justify-center shrink-0">
+                    <Icon name="lucide:mail" class="w-5 h-5 text-accent" />
+                  </div>
+                  <div>
+                    <h3 class="font-bold text-primary mb-1">E-Mail</h3>
+                    <a href="mailto:info@mpcg.de" class="text-accent hover:underline text-sm">info@mpcg.de</a>
+                  </div>
+                </div>
+              </div>
+
+              <a href="https://www.linkedin.com/company/mpcg-koeln/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-4 bg-surface rounded-2xl p-8 border border-gray-100/80 hover:border-accent/30 transition-colors group">
+                <div class="w-11 h-11 bg-accent/10 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-accent transition-colors">
+                  <Icon name="lucide:linkedin" class="w-5 h-5 text-accent group-hover:text-white transition-colors" />
+                </div>
+                <div>
+                  <h3 class="font-bold text-primary mb-1">LinkedIn</h3>
+                  <p class="text-text-light text-sm">Folgen Sie uns auf LinkedIn</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+</Layout>

@@ -1,0 +1,583 @@
+{
+  "categories": [
+    {
+      "title": "Automobil & Zulieferer",
+      "text": "Automobil & Zulieferer (3)",
+      "slug": "automobil-zulieferer",
+      "href": "../erfolge-kategorien/automobil-zulieferer/index.html"
+    },
+    {
+      "title": "Banken & Versicherung",
+      "text": "Banken & Versicherung (4)",
+      "slug": "banken-versicherung",
+      "href": "../erfolge-kategorien/banken-versicherung/index.html"
+    },
+    {
+      "title": "Chemie, Energie & Rohstoffe",
+      "text": "Chemie, Energie & Rohstoffe (6)",
+      "slug": "chemie-energie-rohstoffe",
+      "href": "../erfolge-kategorien/chemie-energie-rohstoffe/index.html"
+    },
+    {
+      "title": "Gesundheitswesen",
+      "text": "Gesundheitswesen (4)",
+      "slug": "gesundheitswesen",
+      "href": "../erfolge-kategorien/gesundheitswesen/index.html"
+    },
+    {
+      "title": "Energieversorger",
+      "text": "Energieversorger (4)",
+      "slug": "energieversorger",
+      "href": "../erfolge-kategorien/energieversorger/index.html"
+    },
+    {
+      "title": "Konsumgüter & Handel",
+      "text": "Konsumgüter & Handel (11)",
+      "slug": "konsumgueter-handel",
+      "href": "../erfolge-kategorien/konsumgueter-handel/index.html"
+    },
+    {
+      "title": "Öffentlicher Sektor",
+      "text": "Öffentlicher Sektor (3)",
+      "slug": "oeffentlicher-sektor",
+      "href": "../erfolge-kategorien/oeffentlicher-sektor/index.html"
+    },
+    {
+      "title": "Industrie",
+      "text": "Industrie (6)",
+      "slug": "industrie",
+      "href": "../erfolge-kategorien/industrie/index.html"
+    },
+    {
+      "title": "Transport & Logistik",
+      "text": "Transport & Logistik (3)",
+      "slug": "transport-logistik",
+      "href": "../erfolge-kategorien/transport-logistik/index.html"
+    },
+    {
+      "title": "Sonstiges",
+      "text": "Sonstiges (2)",
+      "slug": "sonstiges",
+      "href": "../erfolge-kategorien/sonstiges/index.html"
+    },
+    {
+      "title": "Telekommunikation",
+      "text": "Telekommunikation (5)",
+      "slug": "telekommunikation",
+      "href": "../erfolge-kategorien/telekommunikation/index.html"
+    }
+  ],
+  "total_cases": 51,
+  "cases": [
+    {
+      "num": 1,
+      "title": "Nachhaltige und effiziente Optimierung des Kundenservice",
+      "slug": "effizientes-cms-umsetzen",
+      "excerpt": "Als nationales Logistik- und Transportunternehmen  waren digitale Services nicht ausreichend implementiert oder sie wurden nicht effektiv genutzt. Die Umsetzung der Kundenservices erfolgte unprofessio...",
+      "img_alt": "Nachhaltige und effiziente Optimierung des Kundenservice",
+      "img_src": "(embedded base64)",
+      "category": "Transport & Logistik",
+      "img_filename": "optimierung_kundenservice_wuerfel.jpg-scaled.jpg"
+    },
+    {
+      "num": 2,
+      "title": "Umfassende Digitalisierung der wichtigsten Vertriebsprozesse",
+      "slug": "digitalisierung-durch-change-management",
+      "excerpt": "Als großer mittelständischer B2B-Hersteller war der Vertrieb bisher nur rudimentär in übergreifende digitale Prozesse mit eingebunden. Die Steuerung und Analyse der Vertriebsaktivitäten war sehr kompl...",
+      "img_alt": "Umfassende Digitalisierung der wichtigsten Vertriebsprozesse",
+      "img_src": "(embedded base64)",
+      "category": "Industrie",
+      "img_filename": "Nachhaltige_Digitalisierung_Vertriebsprozesse-scaled.jpg"
+    },
+    {
+      "num": 3,
+      "title": "Nachhaltige Steigerung der Kundenzufriedenheit",
+      "slug": "mehr-kundenbindung-durch-kunden-cluster",
+      "excerpt": "Als international tätiges Bauunternehmen waren eine stabile Finanzlage sowie eine umfassende Kundendatenbank bereits vorhanden. Zwecks Expansionsplänen galt es, interne Daten durch qualitative Erhebun...",
+      "img_alt": "Nachhaltige Steigerung der Kundenzufriedenheit",
+      "img_src": "(embedded base64)",
+      "category": "Industrie",
+      "img_filename": "steigerung_Kundenzufriedenheit_leuchtender_smily_hand.jpg-scaled.jpg"
+    },
+    {
+      "num": 4,
+      "title": "Nachhaltige Steigerung der SEO Sichtbarkeiten",
+      "slug": "seo-optimierung-im-banken-sektor",
+      "excerpt": "Als lokale Sparkasse musste festgestellt werden, dass der Content nicht suchmaschinenoptimiert aufgebaut wurde. Das Suchmaschinenranking fiel dementsprechend schwach aus, Wettbewerber konnten sich deu...",
+      "img_alt": "Nachhaltige Steigerung der SEO Sichtbarkeiten",
+      "img_src": "(embedded base64)",
+      "category": "Banken & Versicherung",
+      "img_filename": "steigerung_seo_SEO_knopf.jpg-scaled.jpg"
+    },
+    {
+      "num": 5,
+      "title": "On- und Offline-Verzahnung aller Marketing-Kanäle",
+      "slug": "steigerung-von-online-interaktionen",
+      "excerpt": "Das Angebot des DIY-Angebots ist nur lokal sehr präsent und auch das Know-How der Märkte in der Online-Welt ist nur begrenzt vorhanden. Zudem sieht sich das Unternehmen steigenden Kundenanforderungen,...",
+      "img_alt": "On- und Offline-Verzahnung aller Marketing-Kanäle",
+      "img_src": "(embedded base64)",
+      "category": "Konsumgüter & Handel",
+      "img_filename": "on_offline_verzahnung_online_marketing_digitaler_knopf_hand.jpg-scaled.jpg"
+    },
+    {
+      "num": 6,
+      "title": "Strategische Weiterentwicklung einer E-Commerce Plattform",
+      "slug": "e-commerce-weiterentwicklung",
+      "excerpt": "Als spezialisierter Branchenprimus im Bereich B2B wurde das bisherige ePortal nur sehr passiv genutzt und gepflegt. Der deutsche Außendienst zeigte nur wenig Interesse an einer vertieften Nutzung des ...",
+      "img_alt": "Strategische Weiterentwicklung einer E-Commerce Plattform",
+      "img_src": "(embedded base64)",
+      "category": "Industrie",
+      "img_filename": "strategie_weiterentwicklung_ecommerce_digital_shoppingcart.jpg-scaled.jpg"
+    },
+    {
+      "num": 7,
+      "title": "Strategische Entwicklung eines Loyalty-Programms",
+      "slug": "customer-loyalty-erfolgreich-staerken",
+      "excerpt": "Als Traditionsunternehmen war keinerlei Anbindung an die digitale Welt vorhanden. Das Unternehmen besaß ein Loyalitätsprogramm, welches offline stark forciert wurde, die Kanäle entlang der Customer Jo...",
+      "img_alt": "Strategische Entwicklung eines Loyalty-Programms",
+      "img_src": "(embedded base64)",
+      "category": "Sonstiges",
+      "img_filename": "strategisches_loyality_programm_herz_sonnenuntergang.jpg-scaled.jpg"
+    },
+    {
+      "num": 8,
+      "title": "Strategische Entwicklung eines Hochschulmarketings",
+      "slug": "strategisches-hochschul-marketing",
+      "excerpt": "Als großer B2B-Hersteller sah sich das Unternehmen mit einer schlechten Bewerbungslage bei Auszubildenden und Studierenden konfrontiert. Es gab unterschiedliche Konzepte für Ausbildungs- und Hochschul...",
+      "img_alt": "Strategische Entwicklung eines Hochschulmarketings",
+      "img_src": "(embedded base64)",
+      "category": "Öffentlicher Sektor",
+      "img_filename": "strategische_entwicklung_hochschulmarketing_schloss.jpg-scaled.jpg"
+    },
+    {
+      "num": 9,
+      "title": "Entwicklung einer zentralen Omni-Channel-Strategie",
+      "slug": "entwicklung-einer-omnichannel-strategie",
+      "excerpt": "Als international agierender Konsumgüterhersteller war keine zentrale Steuerung der verschiedenen Kanäle vorhanden. Kanalübergreifend wurde wenig interagiert und es kam zu hohen Streuverlusten und ger...",
+      "img_alt": "Entwicklung einer zentralen Omni-Channel-Strategie",
+      "img_src": "(embedded base64)",
+      "category": "Konsumgüter & Handel",
+      "img_filename": "E3_OCM_Er1_Schachfiguren.jpg-scaled.jpg"
+    },
+    {
+      "num": 10,
+      "title": "Strategische Implementierung von Social-Media-Kanälen",
+      "slug": "erfolgreiche-social-media-strategien",
+      "excerpt": "Ein regionales Telekommunikationsunternehmen hat festgestellt, dass die vorhandene Social-Media-Community in der Anzahl der Mitglieder und der Anzahl der Beiträge schrumpfte. Marketing und SEO-Aktivit...",
+      "img_alt": "Strategische Implementierung von Social-Media-Kanälen",
+      "img_src": "(embedded base64)",
+      "category": "Telekommunikation",
+      "img_filename": "strategische_implementierung_Social_media_Smartphone_symbole.jpg-scaled.jpg"
+    },
+    {
+      "num": 11,
+      "title": "Entwicklung einer digitalen Omni-Channel-Strategie",
+      "slug": "erfolgreiche-omni-channel-strategie",
+      "excerpt": "Als Bank in einem starken Wettbewerbsumfeld war das Unternehmen mit einer allgemein sinkenden Attraktivität der Sparkassen konfrontiert. Mitgliederschwund fand vor Allem in der jungen Zielgruppe statt...",
+      "img_alt": "Entwicklung einer digitalen Omni-Channel-Strategie",
+      "img_src": "(embedded base64)",
+      "category": "Banken & Versicherung",
+      "img_filename": "Omni-Channel-Strategie-scaled.jpg"
+    },
+    {
+      "num": 12,
+      "title": "Entwicklung einer differenzierten Preisstrategie",
+      "slug": "erfolgreich-durch-preisstrategie",
+      "excerpt": "Als großes Telekommunikationsunternehmen war keine effiziente Preisdifferenzierung vorhanden. Preise wurden willkürlich bestimmt, unterschiedliche Stakeholder nahmen eigenständig Einfluss auf die Prei...",
+      "img_alt": "Entwicklung einer differenzierten Preisstrategie",
+      "img_src": "(embedded base64)",
+      "category": "Telekommunikation",
+      "img_filename": "E3_Vertriebsstrategie_Er2_Muenzen_Preisstrategie.jpg-scaled.jpg"
+    },
+    {
+      "num": 13,
+      "title": "Navigieren durch die Digitale Expansion",
+      "slug": "optimierung-der-online-praesenz",
+      "excerpt": "Das Medienunternehmen befand sich bereits erfolgreich im Digitalgeschäft, stand jedoch aufgrund von Wettbewerbsdruck und der Notwendigkeit zu wachsen vor der Herausforderung, sein Portal zu erweitern....",
+      "img_alt": "Navigieren durch die Digitale Expansion",
+      "img_src": "(embedded base64)",
+      "category": "Öffentlicher Sektor",
+      "img_filename": "digitale_expansion_weltkarte_vernetzungen.jpg-scaled.jpg"
+    },
+    {
+      "num": 14,
+      "title": "Neustrukturierung als Schlüssel zu Effizienz und Wachstum",
+      "slug": "erfolgreiches-change-management",
+      "excerpt": "Ein internationales B2B-Unternehmen war mit der Herausforderung konfrontiert, die Abstimmung zwischen den Kernbereichen Vertrieb, Marketing und Projektmanagement (PM) zu verbessern. Diskrepanzen im Ve...",
+      "img_alt": "Neustrukturierung als Schlüssel zu Effizienz und Wachstum",
+      "img_src": "(embedded base64)",
+      "category": "Industrie",
+      "img_filename": "neustrukturierung_sonne.jpg-scaled.jpg"
+    },
+    {
+      "num": 15,
+      "title": "Effizienzsteigerung durch gezielte Datennutzung",
+      "slug": "performance-optimieren",
+      "excerpt": "Unser Kunde, einer der ältesten deutschen Industrieschmierstoffhersteller, gehört heute zu den führenden Herstellern hochwertiger Spezialschmierstoffe und Metallbearbeitungsmedien. Trotz dieser Positi...",
+      "img_alt": "Effizienzsteigerung durch gezielte Datennutzung",
+      "img_src": "(embedded base64)",
+      "category": "Industrie",
+      "img_filename": "Datennutzung_veranschaulicht_linien.jpg-scaled.jpg"
+    },
+    {
+      "num": 16,
+      "title": "Effiziente Strukturierung einer Marketing- und Salesabteilung",
+      "slug": "strukturierung-marketing-abteilung",
+      "excerpt": "Als internationales Chemieunternehmen gab es zu wenig übergreifende On- und Offline-Aktionen in Marketing und Sales. Das Verständnis über Anforderungen, Möglichkeiten und Ziele variierte mitunter sehr...",
+      "img_alt": "Effiziente Strukturierung einer Marketing- und Salesabteilung ",
+      "img_src": "(embedded base64)",
+      "category": "Chemie, Energie & Rohstoffe",
+      "img_filename": "E3_Organisationsentwicklung_Er1_Wege_Personen.jpg-scaled.jpg"
+    },
+    {
+      "num": 17,
+      "title": "CRM-Revolution – Verdopplung qualifizierter Leads",
+      "slug": "crm-strategien-zur-leadgenerierung",
+      "excerpt": "Veraltete und unzureichende Datensätze konnten nicht für die effektive Kundenakquise eines Automobilzulieferers genutzt werden und stellten unseren Kunden damit vor eine große Herausforderung. Dies fü...",
+      "img_alt": "CRM-Revolution – Verdopplung qualifizierter Leads",
+      "img_src": "(embedded base64)",
+      "category": "Automobil & Zulieferer",
+      "img_filename": "E3_CRM_Er2_Magnet_Leadgenerierung.jpg-scaled.jpg"
+    },
+    {
+      "num": 18,
+      "title": "Digital durchstarten mit unserer Market-Excellence",
+      "slug": "marktfuehrer-durch-digitalisierung",
+      "excerpt": "Ein regionaler Energieversorger, bisher ohne jegliche Erfahrung im digitalen Geschäft, strebt im Rahmen seiner Digitalen Expansionsstrategie eine Markt- und Produktdiversifikation an. Mit wenig Erfahr...",
+      "img_alt": "Digital durchstarten mit unserer Market-Excellence",
+      "img_src": "(embedded base64)",
+      "category": "Energieversorger",
+      "img_filename": "regionaler_energieversorger_animierte_grafiken.jpg-scaled.jpg"
+    },
+    {
+      "num": 19,
+      "title": "Mehr Umsatz durch neues Ertragsmodell einer Hotline",
+      "slug": "ertragspotenziale-realisieren",
+      "excerpt": "Ursprünglich war der Support des Kunden durch eine zentrale, generische Hotline-Nummer strukturiert. Diese Anordnung erlaubte keine effektive Filterung von Kundenanfragen, was zu Verwechslungen zwisch...",
+      "img_alt": "Mehr Umsatz durch neues Ertragsmodell einer Hotline",
+      "img_src": "(embedded base64)",
+      "category": "Sonstiges",
+      "img_filename": "E3_Geschaeftsentwicklung_Er1_Headset_Hotline.jpg-scaled.jpg"
+    },
+    {
+      "num": 20,
+      "title": "53% Umsatzsteigerung mit neuer strategischer Ausrichtung",
+      "slug": "umsatzsteigerung-durch-haendleraktivierung",
+      "excerpt": "In der Ausgangssituation zeigte sich, dass lokale Händler eines internationalen Automobilherstellers weitgehend eigenständig operierten und Aktivitäten nur selten mit der Zentrale abgestimmt waren. Zu...",
+      "img_alt": "53% Umsatzsteigerung mit neuer strategischer Ausrichtung",
+      "img_src": "(embedded base64)",
+      "category": "Automobil & Zulieferer",
+      "img_filename": "haendleraktivitaet_uebergabe_autoschluessel.jpg-scaled.jpg"
+    },
+    {
+      "num": 21,
+      "title": "Analyse der Händler- und Kundenzufriedenheit",
+      "slug": "kundenzufriedenheit-erfolgreich-steigern",
+      "excerpt": "Als Telekommunikationsunternehmen waren die interne Organisation sowie Prozesse nicht ausreichend strukturiert. Die Verantwortlichkeiten waren nicht klar definiert. Die nachgelagerten Händler waren ma...",
+      "img_alt": "Analyse der Händler- und Kundenzufriedenheit",
+      "img_src": "(embedded base64)",
+      "category": "Telekommunikation",
+      "img_filename": "E3_Prozessoptimierung_Er1_Diagramme_Analyse.jpg-scaled.jpg"
+    },
+    {
+      "num": 22,
+      "title": "Effiziente und effektive Steigerung der Kundenansprache",
+      "slug": "haendlerbeteiligung-erfolgreich-steigern",
+      "excerpt": "Als nationaler Telekommunikationsanbieter fand nur wenig Beteiligung der lokalen Händler an den zentral geführten Newsletter- und Mailing-Aktionen statt. Zudem war die grafische und technische Umsetzu...",
+      "img_alt": "Effiziente und effektive Steigerung der Kundenansprache",
+      "img_src": "(embedded base64)",
+      "category": "Telekommunikation",
+      "img_filename": "E3_Prozessentwicklung_Er3_Haende_Kundenansprache.jpg-scaled.jpg"
+    },
+    {
+      "num": 23,
+      "title": "Durchführung einer fundierten Markt- und Zielgruppenanalyse",
+      "slug": "marktanalyse-in-konsumgueterbranche",
+      "excerpt": "Als internationaler Konsumgüterhersteller war kein zukunftsfähiges Marketing-Konzept vorhanden. Die Umsatzentwicklung der Zweit- und Drittmarken lag in den letzten Quartalen deutlich unter Plan, die P...",
+      "img_alt": "Durchführung einer fundierten Markt- und Zielgruppenanalyse",
+      "img_src": "(embedded base64)",
+      "category": "Konsumgüter & Handel",
+      "img_filename": "Markt_Zielgruppenanalyse_Lupe.jpg.jpg"
+    },
+    {
+      "num": 24,
+      "title": "Steigerung der Online Verkäufe und Kundeninteraktion",
+      "slug": "durch-website-optimierung-zur-kundeninteraktion",
+      "excerpt": "Als großer Freizeitpark hatte das Unternehmen keine klare Prozessstruktur für den Online-Verkauf von Tickets im Backend und in der internen Verwaltung. Die allgemeine Darstellung war nicht verkaufsori...",
+      "img_alt": "Steigerung der Online Verkäufe und Kundeninteraktion",
+      "img_src": "(embedded base64)",
+      "category": "Öffentlicher Sektor",
+      "img_filename": "Steigerung_Online_Verkaeufe_Kundeninteraktion_Webtool.jpg"
+    },
+    {
+      "num": 25,
+      "title": "Evaluierung verschiedener Business-Plan Szenarien",
+      "slug": "business-plan-erfolgreich-evaluieren",
+      "excerpt": "Als großer Logistik-Dienstleister war das Unternehmen bereits sehr stark und erfolgreich im eCommerce verankert. Auf Grund von Wettbewerbsdruck und Expansionsplänen, war die strategische Ausarbeitung ...",
+      "img_alt": "Evaluierung verschiedener Business-Plan Szenarien",
+      "img_src": "(embedded base64)",
+      "category": "Transport & Logistik",
+      "img_filename": "E3_Geschaeftsentwicklung_Er3_Business-Plan_Ladebalken.jpg-scaled.jpg"
+    },
+    {
+      "num": 26,
+      "title": "Digitale Neupositionierung in der Online-Verzahnung",
+      "slug": "digitale-positionierung-durch-social-media",
+      "excerpt": "Als große Medien- und Verlagsgruppe war der Anteil der digitalen Umsätze in Relation zum Gesamtumsatz auf einem gleichbleibend niedrigen Niveau, obwohl der Gesamtumsatz in den letzten Jahren gewachsen...",
+      "img_alt": "Digitale Neupositionierung in der Online-Verzahnung",
+      "img_src": "(embedded base64)",
+      "category": "Konsumgüter & Handel",
+      "img_filename": "neupositionierung_figuren.jpg-scaled.jpg"
+    },
+    {
+      "num": 27,
+      "title": "Entwicklung einer digitalen Vermarktungsstrategie",
+      "slug": "digitale-vermarktungsstrategie-implementieren",
+      "excerpt": "Als DIY-Händler war der Kunde steigenden Kundenanforderungen und erhöhtem Wettbewerbsdruck ausgesetzt. Eine geringe Online-Präsenz des lokalen Angebotes und des vorhandenen Know-Hows führte dazu, dass...",
+      "img_alt": "Entwicklung einer digitalen Vermarktungsstrategie",
+      "img_src": "(embedded base64)",
+      "category": "Konsumgüter & Handel",
+      "img_filename": "E3_Digitalstrategie_Er2_Lautsprecher_Vermarktungsstrategie.jpg-scaled.jpg"
+    },
+    {
+      "num": 28,
+      "title": "Ganzheitliche Entwicklung eines zentralen Online-Shops",
+      "slug": "ganzheitliche-entwicklung-eines-zentralen-online-shops",
+      "excerpt": "Als internationaler SHK-Hersteller wurde wenig Fokus auf den Betrieb des zentralen White-Label-Shops gelegt. Regionale Händler betrieben eigene Web-Shops, die weder rentabel noch CI-konform waren. Pro...",
+      "img_alt": "Ganzheitliche Entwicklung eines zentralen Online-Shops ",
+      "img_src": "(embedded base64)",
+      "category": "Chemie, Energie & Rohstoffe",
+      "img_filename": "E3_E-Commerce_Er1_Smartphone_Online-Shop.jpg-scaled.jpg"
+    },
+    {
+      "num": 29,
+      "title": "Implementierung einer effektiveren Leadgenerierung",
+      "slug": "crm-datenbank-zur-leadgenerierung",
+      "excerpt": "Als nationaler Bankenverbund konnte nur auf wenige, veraltete Datensätze zur Kundenakquise zurückgegriffen werden. Lokale Niederlassungen generierten eigenständig keine neuen Leads, es mangelte an Kun...",
+      "img_alt": "Implementierung einer effektiveren Leadgenerierung ",
+      "img_src": "(embedded base64)",
+      "category": "Banken & Versicherung",
+      "img_filename": "E3_Digital-Marketing_Er1_Wolkenkratzer_Himmel.jpg-scaled.jpg"
+    },
+    {
+      "num": 30,
+      "title": "Kundenorientierte Entwicklung einer E-Commerce Strategie",
+      "slug": "umsatzsteigerung-im-e-commerce",
+      "excerpt": "Als international agierender Elektronikfachhändler war die stringente Erweiterung der Geschäftstätigkeit auf den eCommerce aus diversen, internen Gründen lange verschoben worden. In der Zwischenzeit w...",
+      "img_alt": "Kundenorientierte Entwicklung einer E-Commerce Strategie",
+      "img_src": "(embedded base64)",
+      "category": "Konsumgüter & Handel",
+      "img_filename": "e-commerce_strategie_schachbrett.jpg-scaled.jpg"
+    },
+    {
+      "num": 31,
+      "title": "Personalplanung im Zeitalter des demographischen Wandels",
+      "slug": "herausforderungen-im-wandel",
+      "excerpt": "Ein global operierender Chemiekonzern stand vor der Herausforderung eines sich dynamisch wandelnden demografischen Arbeitsumfeldes. Mit zunehmendem Durchschnittsalter der Belegschaft zeichnete sich ab...",
+      "img_alt": "Personalplanung im Zeitalter des demographischen Wandels",
+      "img_src": "(embedded base64)",
+      "category": "Chemie, Energie & Rohstoffe",
+      "img_filename": "strategische_personalplanung_chemiekonzern_chemiekanten.jpg-scaled.jpg"
+    },
+    {
+      "num": 32,
+      "title": "Entwicklung eines digitalen Manchester-Triage-Systems",
+      "slug": "digitalisierung-im-krankenhaus",
+      "excerpt": "In einem Krankenhausverbund waren Prozessabläufe, Verantwortlichkeiten und einzelne Aufgaben nicht standardisiert. Die Pflege-Dokumentation in der Notfall-Ambulanz wurde noch in Papierform erarbeitet....",
+      "img_alt": "Entwicklung eines digitalen Manchester-Triage-Systems",
+      "img_src": "(embedded base64)",
+      "category": "Gesundheitswesen",
+      "img_filename": "E3_Prozessdigitalisierung_Er2_Moderner-Krankenhausflur_Digitalisierung-Krankenhaus.jpg-scaled.jpg"
+    },
+    {
+      "num": 33,
+      "title": "Implementierung einer zentralen/digitalen Personalakte",
+      "slug": "wandel-in-den-krankenhaeusern",
+      "excerpt": "Als Zusammenschluss verschiedener Krankenhäuser gab es in jedem der Häuser unabhängige Personalabteilungen. Gleiche Aufgaben wurden durch unterschiedlich ablaufende Prozesse bearbeitet. Eine digitale ...",
+      "img_alt": "Implementierung einer zentralen/digitalen Personalakte",
+      "img_src": "(embedded base64)",
+      "category": "Gesundheitswesen",
+      "img_filename": "Implementierung_personalakte_personnel_ordner.jpg-scaled.jpg"
+    },
+    {
+      "num": 34,
+      "title": "Implementierung eines Kundenbindungsprogramms",
+      "slug": "umsatzsteigerung-durch-kundenbindung",
+      "excerpt": "Als großer Telekommunikationsanbieter gab es keinen einheitlichen Ansatz zur Kundenbindung innerhalb des Konzerns, Synergiepotentiale wurden nicht ausgeschöpft. Es gab eine Vielzahl an unterschiedlich...",
+      "img_alt": "Implementierung eines Kundenbindungsprogramms",
+      "img_src": "(embedded base64)",
+      "category": "Telekommunikation",
+      "img_filename": "Kundenbindungsprogramm_Knoten.jpg-scaled.jpg"
+    },
+    {
+      "num": 35,
+      "title": "Unterstützung zur nachhaltigen Mitarbeiter-Motivation",
+      "slug": "mitarbeiter-motivation-steigern",
+      "excerpt": "Als Krankenhaus-Verbund musste festgestellt werden, dass sich die Krankenhäuser nicht ausreichend auf die Erwartungen der Generation Y einstellten. Jungen Ärzten wurden nur begrenzt flexible und planb...",
+      "img_alt": "Unterstützung zur nachhaltigen Mitarbeiter-Motivation",
+      "img_src": "(embedded base64)",
+      "category": "Gesundheitswesen",
+      "img_filename": "Nachhaltige_mitarbeiterunterstuetzung_starkesteam.jpg-scaled.jpg"
+    },
+    {
+      "num": 36,
+      "title": "Digitale Marketingstrategie für B2B-Marktführer",
+      "slug": "digitale-vertriebskanaele-staerken",
+      "excerpt": "Ein erfolgreicher regionaler Energieversorger wollte mit einem gut abgestimmten digitalen Marketing Mix die Verkaufszahlen über Ihre digitalen Vertriebskanäle erhöhen. Das Verständnis über Anforderung...",
+      "img_alt": "Digitale Marketingstrategie für B2B-Marktführer ",
+      "img_src": "(embedded base64)",
+      "category": "Energieversorger",
+      "img_filename": "digialmarketingstrategie_marktfuehrer_leuchtendekugel.jpg-scaled.jpg"
+    },
+    {
+      "num": 37,
+      "title": "Stärkere Zusammenarbeit durch Behebung neuralgischer Punkte",
+      "slug": "umstrukturierung-der-energiebranche",
+      "excerpt": "Eine kostenorientierte Umstrukturierung verschiedener Geschäftsbereiche stellte einen Energiedienstleister vor eine große Herausforderung. Ziel war die Optimierung des kaufmännischen und technischen B...",
+      "img_alt": "Stärkere Zusammenarbeit durch Behebung neuralgischer Punkte",
+      "img_src": "(embedded base64)",
+      "category": "Energieversorger",
+      "img_filename": "E2_Agilere-Organisation_Er2_Haendeschuetteln_Optimierte-Zusammenarbeit.jpg-scaled.jpg"
+    },
+    {
+      "num": 38,
+      "title": "Digitale Transformation – Steigerung der Online-Präsenz",
+      "slug": "online-praesenz-steigern",
+      "excerpt": "In einer immer stärker vernetzten Geschäftswelt genügte die Online-Präsenz unseres Kunden nicht, um sich entscheidende Marktanteile zu sichern. Die Ursache lag primär in der fehlenden Abstimmung der W...",
+      "img_alt": "Digitale Transformation – Steigerung der Online-Präsenz",
+      "img_src": "(embedded base64)",
+      "category": "Konsumgüter & Handel",
+      "img_filename": "steigerung_onlinekauf_kundeninteraktion_handy_Karte_frau.jpg-scaled.jpg"
+    },
+    {
+      "num": 39,
+      "title": "Strategische Neupositionierung einer Geschäftseinheit",
+      "slug": "neupositionierung-in-der-finanzbranche",
+      "excerpt": "Bisher wurden vorhandene Personalkompetenzen  des Finanzdienstleisters nur wenig und ineffizient genutzt. Das Arbeitsergebnis lag dabei unter dem Marktstandard und auf Kundenseite wurde kein messbarer...",
+      "img_alt": "Strategische Neupositionierung einer Geschäftseinheit",
+      "img_src": "(embedded base64)",
+      "category": "Banken & Versicherung",
+      "img_filename": "neuposition_geschaeftseinheit_netzwerk_naegel.jpg-scaled.jpg"
+    },
+    {
+      "num": 40,
+      "title": "Durchführung einer Employer-Branding-Kampagne",
+      "slug": "arbeitgeberattraktivitaet-durch-employer-branding",
+      "excerpt": "Als großer mittelständischer Dienstleister sah sich das Unternehmen mit einem schlechten, externen Image konfrontiert trotz vordergründig hohen Mitarbeiterzufriedenheit. Es gab nur sehr wenige Bewerbu...",
+      "img_alt": "Durchführung einer Employer-Branding-Kampagne",
+      "img_src": "(embedded base64)",
+      "category": "Konsumgüter & Handel",
+      "img_filename": "Employer_Branding_Kampagne-scaled.jpg"
+    },
+    {
+      "num": 41,
+      "title": "Ganzheitliche Entwicklung einer Digital-Strategie",
+      "slug": "digitaler-wandel-im-verlagswesen",
+      "excerpt": "Als Fachverlag war die interne Organisation bereits auf die Verbreitung über digitale Medien ausgerichtet. Dennoch waren sinkende Erlöse sowie eine Abwanderung der Zielgruppe zu verzeichnen. Es galt, ...",
+      "img_alt": "Ganzheitliche Entwicklung einer Digital-Strategie",
+      "img_src": "(embedded base64)",
+      "category": "Konsumgüter & Handel",
+      "img_filename": "Entwicklung_Digital-Strategie.jpg"
+    },
+    {
+      "num": 42,
+      "title": "Umfassende SDG-Analyse für Unternehmen der Spezialchemie",
+      "slug": "nachhaltigkeit-in-der-chemiebranche",
+      "excerpt": "Das internationale Unternehmen der Spezialchemie wird von seinen Kunden immer dringender aufgefordert die 17 globalen Ziele für nachhaltige Entwicklung der Agenda 2030, die Sustainable Development Goa...",
+      "img_alt": "Umfassende SDG-Analyse für Unternehmen der Spezialchemie",
+      "img_src": "(embedded base64)",
+      "category": "Chemie, Energie & Rohstoffe",
+      "img_filename": "SDG_Baukloetze.jpg.jpg"
+    },
+    {
+      "num": 43,
+      "title": "Nachhaltigkeits-Kommunikation für Spezialchemie-Hersteller",
+      "slug": "esg-unternehmenskommunikation",
+      "excerpt": "Nach SDG-Analyse für internationalen Hersteller von Spezialchemie soll eine überzeugende ESG-Strategie entwickelt werden, um die umfangreichen Nachhaltigkeits-Maßnahmen des Unternehmens an alle releva...",
+      "img_alt": "Nachhaltigkeits-Kommunikation für Spezialchemie-Hersteller",
+      "img_src": "(embedded base64)",
+      "category": "Chemie, Energie & Rohstoffe",
+      "img_filename": "Entwicklung_Nachhaltigkeits-Kommunikation-scaled.jpg"
+    },
+    {
+      "num": 44,
+      "title": "Doppelte Wesentlichkeitsanalyse für hidden Champion",
+      "slug": "wesentlichkeitsanalyse",
+      "excerpt": "Es soll ein für Wirtschaftsprüfer nachvollziehbarer Stakeholder-Dialog entlang der European Sustainability Reporting Standards (ESRS) etabliert werden. Der Dialog soll ALLE relevanten Stakeholdergrupp...",
+      "img_alt": "Doppelte Wesentlichkeitsanalyse für hidden Champion",
+      "img_src": "(embedded base64)",
+      "category": "Transport & Logistik",
+      "img_filename": "DWA_Internationaler_Flughafen-scaled.jpg"
+    },
+    {
+      "num": 45,
+      "title": "Einfache Wesentlichkeitsanalyse für Automobilzulieferer",
+      "slug": "wesentlichkeit-im-nachhaltigkeitsreporting",
+      "excerpt": "Für einen internationalen Automotive-Zulieferer, der noch keinerlei Erfahrung im Reporting von Nachhaltigkeit hat, soll im ersten Schritt eine einfache Wesentlichkeitsmatrix erarbeitet werden. Zwar wa...",
+      "img_alt": "Einfache Wesentlichkeitsanalyse für Automobilzulieferer",
+      "img_src": "(embedded base64)",
+      "category": "Automobil & Zulieferer",
+      "img_filename": "Automotive_Hersteller_Fliessband.jpg.jpg"
+    },
+    {
+      "num": 46,
+      "title": "Hotspot-Analyse für Hidden Champion in HKL-Branche",
+      "slug": "durchfuehrung-einer-hotspot-analyse",
+      "excerpt": "Die Inhaber und Geschäftsführer eines Hidden Champion wollen das Unternehmen sehr bewusst auf Nachhaltigkeit ausrichten. Ebenso soll ein detailliertes und transparentes umfassendes Reporting entlang d...",
+      "img_alt": "Hotspot-Analyse für Hidden Champion in HKL-Branche",
+      "img_src": "(embedded base64)",
+      "category": "Chemie, Energie & Rohstoffe",
+      "img_filename": "Chart-zur-Darstellung-einer-ausfuehrlichen-Analyse.jpg"
+    },
+    {
+      "num": 47,
+      "title": "Revolution im Kundenservice",
+      "slug": "erfolg-durch-datenbasierte-entscheidungen",
+      "excerpt": "Ein großer nationaler Energieversorger hat große Probleme mit Kundenservice. Im Zuge einer Leistungsumstellung sind die Kundenbeschwerden dramatisch angestiegen. Es kam zu einer erheblichen Erhöhung v...",
+      "img_alt": "Revolution im Kundenservice",
+      "img_src": "(embedded base64)",
+      "category": "Energieversorger",
+      "img_filename": "Revolution_Kundenservice.jpg"
+    },
+    {
+      "num": 48,
+      "title": "Umfassende Digitalstrategie definiert einen Verlag neu",
+      "slug": "digitale-strategien-entwickeln",
+      "excerpt": "Ein Special-Interest-Verlag sieht sich mit wirtschaftlichen Herausforderungen konfrontiert, darunter sinkende Erlöse und die Abwanderung der Zielgruppe zu digitalen Medien. Obwohl die interne Organisa...",
+      "img_alt": "Umfassende Digitalstrategie definiert einen Verlag neu",
+      "img_src": "(embedded base64)",
+      "category": "Konsumgüter & Handel",
+      "img_filename": "Digitalstrategie_Verlag-scaled.jpg"
+    },
+    {
+      "num": 49,
+      "title": "Strategische Definition der Leistungen und Versprechen",
+      "slug": "strategische-vorteile-durch-leistungsversprechen",
+      "excerpt": "Als großer Krankenhausverbund waren das Design und die technische Umsetzung der Homepage nicht ansprechend für die Zielgruppe gestaltet. Die Werte der Krankenhäuser und die Identität des Verbundes wur...",
+      "img_alt": "Strategische Definition der Leistungen und Versprechen",
+      "img_src": "(embedded base64)",
+      "category": "Gesundheitswesen",
+      "img_filename": "Strategische_Leistungen_Versprechen-scaled.jpg"
+    },
+    {
+      "num": 50,
+      "title": "Strategische Entwicklung von Landingpages",
+      "slug": "seo-optimierung-auf-landingpages",
+      "excerpt": "Als großer Fachverlag musste festgestellt werden, dass die unterschiedlichen Fachmagazine nicht erfolgreich im Absatz waren. Das Gesamtportfolio war zu wenig differenziert und sehr spezialisiert. Die ...",
+      "img_alt": "Strategische Entwicklung von Landingpages ",
+      "img_src": "(embedded base64)",
+      "category": "Konsumgüter & Handel",
+      "img_filename": "Strategische_Entwicklung_Landingpages .jpg"
+    },
+    {
+      "num": 51,
+      "title": "Erstellung eines ganzheitlichen Business-Plans für ein E-Portal",
+      "slug": "business-plan-zur-leistungssteigerung",
+      "excerpt": "Als einer der weltweit führenden B2B-Hersteller waren bislang keinerlei digitale Erfahrungswerte vorhanden. Es gab keine eCommerce KPIs, kein CMS oder SEO-Know How. Eine digitale Expansionsstrategie w...",
+      "img_alt": "Erstellung eines ganzheitlichen Business-Plans für ein E-Portal",
+      "img_src": "(embedded base64)",
+      "category": "Industrie",
+      "img_filename": "Business-Plan_e-Portal.jpg"
+    }
+  ]
+}

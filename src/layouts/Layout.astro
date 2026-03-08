@@ -1,0 +1,197 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import LinkedInFloat from '../components/LinkedInFloat.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+  canonical?: string;
+  noindex?: boolean;
+}
+
+const defaultDescription = 'MPCG – Michael Prothmann Consulting Group. Wir begleiten Unternehmen in ihrer Transformation, um ihre Wertschöpfung nachhaltig zu steigern.';
+const { 
+  title, 
+  description = defaultDescription,
+  ogImage = '/imgi_5_cta.png',
+  canonical,
+  noindex = false,
+} = Astro.props;
+
+const siteUrl = 'https://mpcg.de';
+const pageUrl = canonical || `${siteUrl}${Astro.url.pathname}`;
+const fullOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`;
+const fullTitle = `${title} | MPCG – Managementberatung Köln`;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'MPCG – Michael Prothmann Consulting Group',
+  alternateName: 'MPCG GmbH',
+  url: siteUrl,
+  logo: `${siteUrl}/imgi_2_mpcg-koeln-logo.svg`,
+  description: 'Führende Managementberatung aus Köln. Wir begleiten Unternehmen in ihrer Transformation – von der Strategieentwicklung bis zur Umsetzung.',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'Moltkestr. 99',
+    addressLocality: 'Köln',
+    postalCode: '50674',
+    addressCountry: 'DE',
+  },
+  telephone: '+4922167002120',
+  email: 'info@mpcg.de',
+  sameAs: [
+    'https://www.linkedin.com/company/mpcg-koeln/',
+  ],
+  founder: {
+    '@type': 'Person',
+    name: 'Michael Prothmann',
+  },
+  areaServed: 'DE',
+  knowsAbout: [
+    'Managementberatung',
+    'Strategieberatung',
+    'Digitale Transformation',
+    'Change Management',
+    'Prozessoptimierung',
+    'Nachhaltigkeit',
+    'Sales Excellence',
+  ],
+};
+---
+
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta -->
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    {noindex ? (
+      <meta name="robots" content="noindex, nofollow" />
+    ) : (
+      <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    )}
+    <link rel="canonical" href={pageUrl} />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico" />
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="MPCG – Managementberatung Köln" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={fullOgImage} />
+    <meta property="og:url" content={pageUrl} />
+    <meta property="og:locale" content="de_DE" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={fullOgImage} />
+    
+    <!-- Additional SEO -->
+    <meta name="author" content="MPCG – Michael Prothmann Consulting Group" />
+    <meta name="publisher" content="MPCG GmbH" />
+    <meta name="geo.region" content="DE-NW" />
+    <meta name="geo.placename" content="Köln" />
+    <meta name="theme-color" content="#203664" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  </head>
+  <body class="overflow-x-hidden">
+    <Header />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+
+    <script>
+      // Scroll-triggered animations
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+            }
+          });
+        },
+        { threshold: 0.1, rootMargin: '0px 0px -50px 0px' }
+      );
+
+      document.querySelectorAll('.fade-in, .slide-in-left, .slide-in-right').forEach((el) => {
+        observer.observe(el);
+      });
+
+      // Navbar scroll effect
+      const header = document.getElementById('main-header');
+      const navPill = document.getElementById('nav-pill');
+      let lastScroll = 0;
+      window.addEventListener('scroll', () => {
+        const currentScroll = window.scrollY;
+        if (header) {
+          if (currentScroll > 50) {
+            header.style.background = 'rgba(255,255,255,0.92)';
+            header.style.backdropFilter = 'blur(20px) saturate(180%)';
+            header.style.boxShadow = '0 1px 3px rgba(0,0,0,0.04), 0 4px 20px rgba(0,0,0,0.03)';
+            header.querySelectorAll('.nav-link').forEach(el => {
+              el.classList.remove('text-white/90', 'text-white/80', 'text-white');
+              el.classList.add('text-primary');
+            });
+            if (navPill) {
+              navPill.classList.remove('bg-white/[0.06]', 'border-white/[0.08]');
+              navPill.classList.add('bg-gray-100/60', 'border-gray-200/50');
+            }
+            const logoImg = header.querySelector('.logo-img') as HTMLElement;
+            if (logoImg) {
+              logoImg.classList.remove('brightness-0', 'invert');
+            }
+            const ctaBtn = header.querySelector('a[href="/kontakt"]:not(.btn-primary)') as HTMLElement;
+            if (ctaBtn) {
+              ctaBtn.classList.remove('bg-white/10', 'text-white', 'border-white/15');
+              ctaBtn.classList.add('bg-accent', 'text-white', 'border-accent');
+            }
+          } else {
+            header.style.background = 'transparent';
+            header.style.backdropFilter = 'none';
+            header.style.boxShadow = 'none';
+            header.querySelectorAll('.nav-link').forEach(el => {
+              el.classList.add('text-white/90');
+              el.classList.remove('text-primary');
+            });
+            if (navPill) {
+              navPill.classList.add('bg-white/[0.06]', 'border-white/[0.08]');
+              navPill.classList.remove('bg-gray-100/60', 'border-gray-200/50');
+            }
+            const logoImg = header.querySelector('.logo-img') as HTMLElement;
+            if (logoImg) {
+              logoImg.classList.add('brightness-0', 'invert');
+            }
+            const ctaBtn = header.querySelector('a[href="/kontakt"]:not(.btn-primary)') as HTMLElement;
+            if (ctaBtn) {
+              ctaBtn.classList.add('bg-white/10', 'text-white', 'border-white/15');
+              ctaBtn.classList.remove('bg-accent', 'border-accent');
+            }
+          }
+        }
+        lastScroll = currentScroll;
+      });
+    </script>
+    <LinkedInFloat />
+  </body>
+</html>

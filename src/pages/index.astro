@@ -1,0 +1,299 @@
+﻿---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import ServiceCard from '../components/ServiceCard.astro';
+import WhitepaperCard from '../components/WhitepaperCard.astro';
+import { Icon } from 'astro-icon/components';
+---
+
+<Layout title="Leading Transformation" description="MPCG – Wir begleiten Unternehmen führend in ihren notwendigen Transformationsprozessen – immer mit dem Ziel, ihre Wertschöpfung nachhaltig zu steigern.">
+
+  <Hero
+    subtitle="Leading Transformation"
+    title='Wir begleiten Unternehmen in ihrer <span class="gradient-text">Transformation.</span>'
+    description="Wir begleiten Unternehmen führend in ihren notwendigen Transformationsprozessen – immer mit dem Ziel, ihre Wertschöpfung nachhaltig zu steigern."
+    ctaText="Jetzt Kontakt aufnehmen"
+    ctaHref="/kontakt"
+    secondaryCtaText="Unsere Leistungen"
+    secondaryCtaHref="#leistungen"
+    backgroundVideo="/mpcg-hero.mp4"
+  />
+
+  <!-- Aktuelle Themen -->
+  <section class="section-padding bg-surface relative">
+    <div class="container-custom">
+      <div class="text-center mb-16 fade-in">
+        <span class="section-label">Aktuell</span>
+        <h2 class="text-3xl md:text-5xl font-extrabold text-primary tracking-tight">Unsere aktuellen Themen</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <a href="/leistungen/nachhaltigkeit" class="group relative bg-white rounded-2xl overflow-hidden card-hover glow border border-gray-100/80 fade-in">
+          <div class="aspect-[16/10] overflow-hidden">
+            <img src="/imgi_60_Tiefgreifende-Nachhaltigkeit-Teaser-Homepage.jpg" alt="Nachhaltigkeit umsetzen und wachsen" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy" />
+          </div>
+          <div class="p-8">
+            <div class="inline-flex items-center gap-2 px-3 py-1 bg-green-100 text-green-700 text-xs font-semibold rounded-full mb-4">
+              <Icon name="lucide:leaf" class="w-3 h-3" />
+              Nachhaltigkeit
+            </div>
+            <h3 class="text-xl font-bold text-primary mb-3 group-hover:text-accent transition-colors">
+              Grow Green – Nachhaltigkeit umsetzen und wachsen
+            </h3>
+            <p class="text-text-light text-sm leading-relaxed mb-4">
+              Die Chancen, aus einer verbesserten ESG-Performance richtige Wachstumspotenziale zu realisieren und gleichzeitig einen nachhaltigen Impact zu hinterlassen, sind enorm. Trotzdem stehen viele Unternehmen noch vor immensen Herausforderungen. Laut CSRD-Richtlinie müssen bereits 2025 alle großen Unternehmen nach neuen, einheitlichen Standards berichten. Doch auch hier entstehen große Möglichkeiten.
+            </p>
+            <div class="flex items-center text-accent font-semibold text-sm">
+              Weiterlesen
+              <Icon name="lucide:arrow-right" class="w-4 h-4 ml-2 group-hover:translate-x-2 transition-transform" />
+            </div>
+          </div>
+        </a>
+
+        <a href="/insights" class="group relative bg-white rounded-2xl overflow-hidden card-hover glow border border-gray-100/80 fade-in">
+          <div class="aspect-[16/10] overflow-hidden">
+            <img src="/imgi_8_Digitalstrategie-1200x600.jpg" alt="KI als Treiber für mehr Effizienz" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy" />
+          </div>
+          <div class="p-8">
+            <div class="inline-flex items-center gap-2 px-3 py-1 bg-blue-100 text-blue-700 text-xs font-semibold rounded-full mb-4">
+              <Icon name="lucide:brain" class="w-3 h-3" />
+              Künstliche Intelligenz
+            </div>
+            <h3 class="text-xl font-bold text-primary mb-3 group-hover:text-accent transition-colors">
+              KI als Treiber für mehr Effizienz in Unternehmen
+            </h3>
+            <p class="text-text-light text-sm leading-relaxed mb-4">
+              Die Einbindung von KI in das Geschäftsökosystem von B2B-Unternehmen ist ein Wendepunkt in der Art und Weise, wie Firmen ihre internen Abläufe gestalten, die Interaktion mit ihren Kunden pflegen und ihre Produkte und Dienstleistungen weiterentwickeln. KI ist eine richtige Revolution, die viele Möglichkeiten schafft. Gleichzeitig entstehen neue Herausforderungen, die fast alle Unternehmen zukünftig beschäftigen werden.
+            </p>
+            <div class="flex items-center text-accent font-semibold text-sm">
+              Weiterlesen
+              <Icon name="lucide:arrow-right" class="w-4 h-4 ml-2 group-hover:translate-x-2 transition-transform" />
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Leistungen -->
+  <section id="leistungen" class="section-padding bg-white">
+    <div class="container-custom">
+      <div class="max-w-3xl mb-16 fade-in">
+        <span class="section-label">Was wir tun</span>
+        <h2 class="text-3xl md:text-5xl font-extrabold text-primary mb-6 tracking-tight">Unser Leistungsspektrum</h2>
+        <p class="text-lg text-text-light leading-relaxed font-light">
+          Wir haben ein umfassendes und bewährtes Leistungsspektrum, um die Transformation in Ihrem Unternehmen erfolgreich umzusetzen und die Wertschöpfung Ihres Unternehmens zu steigern.
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 fade-in">
+        <ServiceCard title="Agilere Organisation" description="Veränderung, aber so, dass sie alle mittragen. Mit unseren Ansätzen bringen wir Mensch und Technik im Veränderungsprozess effektiv zusammen." icon="lucide:refresh-cw" href="/leistungen/agile-organisation" image="/imgi_57_Agilere-Organisation-Teaser-Homepage.jpg" />
+        <ServiceCard title="Effizientere Prozesse" description="Vom Problemthema zum Stolzfaktor – Mit starken Ansätzen die Prozesslandschaft umkrempeln und optimieren." icon="lucide:zap" href="/leistungen/effizientere-prozesse" image="/imgi_58_Effizientere-Prozesse-Teaser-Homepage.jpg" />
+        <ServiceCard title="Mehr Sales" description="Gemeinsam bringen wir Ihren Vertrieb an die Spitze – digital und auf allen Touchpoints." icon="lucide:trending-up" href="/leistungen/mehr-sales" image="/imgi_59_Mehr-Sales-Teaser-Homepage-2.jpg" />
+        <ServiceCard title="Tiefgreifende Nachhaltigkeit" description="Wirkungsvolle Beiträge fürs Klima und mehr Wertschöpfung gehen dabei Hand in Hand." icon="lucide:sprout" href="/leistungen/nachhaltigkeit" image="/imgi_60_Tiefgreifende-Nachhaltigkeit-Teaser-Homepage.jpg" />
+        <ServiceCard title="Bessere Strategie" description="Von Anfang bis Ende – Ganzheitliche Strategien, die Ihr Unternehmen für alle Herausforderungen der Zukunft standhaft machen." icon="lucide:compass" href="/leistungen/bessere-strategie" image="/imgi_61_Bessere-Strategie-Teaser-Homepage-2.jpg" />
+        <a href="/kontakt" class="group flex flex-col items-center justify-center bg-gradient-to-br from-accent to-blue-500 rounded-2xl p-8 text-white card-hover min-h-[280px] relative overflow-hidden grain">
+          <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.1),transparent_60%)]" />
+          <div class="w-12 h-12 bg-white/15 backdrop-blur-sm rounded-xl flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-500 border border-white/10">
+            <Icon name="lucide:message-circle" class="w-6 h-6" />
+          </div>
+          <h3 class="text-lg font-bold mb-1.5 tracking-tight">Sprechen wir darüber</h3>
+          <p class="text-white/60 text-sm text-center">Unverbindliches Erstgespräch</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Karriere Teaser -->
+  <section class="section-padding bg-surface relative">
+    <div class="container-custom">
+      <div class="bg-white rounded-2xl border border-gray-100/80 overflow-hidden fade-in glow">
+        <div class="grid md:grid-cols-2">
+          <div class="p-10 md:p-16 flex flex-col justify-center">
+            <span class="section-label">Karriere</span>
+            <h2 class="text-3xl md:text-4xl font-extrabold text-primary mb-6 tracking-tight">Bei uns Karriere machen</h2>
+            <p class="text-text-light leading-relaxed mb-8">
+              Der Einstieg in ein neues Unternehmen ist bedeutend. Wir bieten diverse Einstiegsmöglichkeiten und fördern die fachliche sowie persönliche Entwicklung durch Eigenverantwortung und steile Lernkurven.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+              <a href="/karriere" class="btn-primary">Karriere entdecken</a>
+            </div>
+          </div>
+          <div class="relative min-h-[300px]">
+            <img src="/imgi_36_mpcg-karriere-desktop.jpg" alt="Karriere bei der MPCG" class="absolute inset-0 w-full h-full object-cover" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Die mpcg -->
+  <section class="section-padding bg-white">
+    <div class="container-custom">
+      <div class="text-center mb-16 fade-in">
+        <span class="section-label">Die mpcg</span>
+        <h2 class="text-3xl md:text-5xl font-extrabold text-primary tracking-tight">Wer wir sind</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto stagger-children">
+        <div class="bg-surface rounded-2xl p-8 border border-gray-100/80 fade-in hover:border-accent/20 transition-colors duration-500">
+          <Icon name="lucide:building-2" class="w-8 h-8 text-accent mb-4" />
+          <h3 class="text-xl font-bold text-primary mb-4">Über uns</h3>
+          <p class="text-text-light leading-relaxed text-sm">Wir sind eine führende, umsetzungsstarke Unternehmensberatung mit Sitz im Herzen von Köln. Wir begleiten Unternehmen in ihren Veränderungsprozessen ganzheitlich - von der Strategieentwicklung bis hin zur finalen Umsetzung.</p>
+          <p class="text-text-light leading-relaxed text-sm mt-3">Unser hoch motiviertes Team aus kreativen Digital Natives und praxiserfahrenen Senior Experts vereint das Beste beider Welten: frisches Wissen, innovative Ideen und digitale Exzellenz kombiniert mit langjähriger, unternehmerischer Erfahrung und analoger Bewährtheit.</p>
+        </div>
+        <div class="bg-surface rounded-2xl p-8 border border-gray-100/80 fade-in hover:border-accent/20 transition-colors duration-500">
+          <Icon name="lucide:compass" class="w-8 h-8 text-accent mb-4" />
+          <h3 class="text-xl font-bold text-primary mb-4 tracking-tight">Unsere Mission</h3>
+          <p class="text-text-light leading-relaxed text-sm">Unser Leitsatz „Leading Transformation" spricht für sich: In einer sich stetig verändernden Welt mit dynamischen Marktbedingungen müssen sich Unternehmen anpassen, um wettbewerbsfähig zu bleiben.</p>
+          <p class="text-text-light leading-relaxed text-sm mt-3">Unsere Mission ist es, Unternehmen in ihren notwendigen Veränderungsprozessen erfolgreich zu begleiten, immer mit dem Ziel, ihre Wertschöpfung nachhaltig zu steigern.</p>
+        </div>
+        <div class="bg-surface rounded-2xl p-8 border border-gray-100/80 fade-in hover:border-accent/20 transition-colors duration-500">
+          <Icon name="lucide:heart" class="w-8 h-8 text-accent mb-4" />
+          <h3 class="text-xl font-bold text-primary mb-4 tracking-tight">Unsere Werte & Kultur</h3>
+          <div class="space-y-3 text-text-light leading-relaxed text-sm">
+            <p><strong class="text-primary">Wir sind teamfokussiert.</strong> Unser starkes Wir-Gefühl zeichnet uns aus. Wir arbeiten immer interdisziplinär, respektvoll und mit viel Wertschätzung zusammen.</p>
+            <p><strong class="text-primary">Wir sind offen.</strong> Unser Unternehmen steht für Vielfalt. Wir sind unvoreingenommen, vorurteilsfrei und offen gegenüber allen Ideen, Perspektiven und Meinungen.</p>
+            <p><strong class="text-primary">Wir sind empathisch.</strong> Wir setzen immer den Menschen in den Fokus: unsere Mitarbeiter, unsere Kunden und die Kunden unserer Kunden.</p>
+            <p><strong class="text-primary">Wir sind leistungsorientiert.</strong> Unser Anspruch ist es, immer „top-notch" Leistungen mit herausragenden Ergebnissen abzuliefern.</p>
+          </div>
+        </div>
+        <div class="bg-surface rounded-2xl p-8 border border-gray-100/80 fade-in hover:border-accent/20 transition-colors duration-500">
+          <Icon name="lucide:sparkles" class="w-8 h-8 text-accent mb-4" />
+          <h3 class="text-xl font-bold text-primary mb-4 tracking-tight">Unser Ansatz</h3>
+          <p class="text-text-light leading-relaxed text-sm">Unser Ansatz ist so einzigartig wie überzeugend: Wir konzipieren nicht nur zukunftsfähige Strategien, sondern sorgen dafür, dass sie erfolgreich umgesetzt werden.</p>
+          <p class="text-text-light leading-relaxed text-sm mt-3">Dabei arbeiten wir immer eng und auf Augenhöhe mit unseren Kunden zusammen und werden so selbst ein aktiver Teil der Teams.</p>
+          <p class="text-text-light leading-relaxed text-sm mt-3">Zudem gehen wir in allen Projekten sehr analytisch und datengetrieben vor, aber setzen gleichzeitig auf unsere wilden Ideen und starke „out-of-the-box"-Ansätze.</p>
+        </div>
+      </div>
+
+      <div class="text-center mt-10 fade-in">
+        <a href="/wer-wir-sind" class="btn-secondary">Mehr über uns erfahren</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Erfolge -->
+  <section class="section-padding bg-surface">
+    <div class="container-custom">
+      <div class="flex flex-col md:flex-row items-start md:items-end justify-between mb-16 gap-6 fade-in">
+        <div>
+          <span class="section-label">Referenzen</span>
+          <h2 class="text-3xl md:text-5xl font-extrabold text-primary tracking-tight">Das bewirken wir bei<br/>unseren Kunden</h2>
+        </div>
+        <a href="/erfolge" class="btn-secondary shrink-0">Alle Erfolge</a>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6 fade-in">
+        {[
+          { title: 'Strategische Neupositionierung einer Geschäftseinheit', category: 'Strategie', image: '/imgi_10_neuposition_geschaeftseinheit_netzwerk_naegel.jpg-1200x600.jpg' },
+          { title: 'Nachhaltigkeits-Kommunikation für Spezialchemie-Hersteller', category: 'Nachhaltigkeit', image: '/imgi_11_Entwicklung_Nachhaltigkeits-Kommunikation-1200x600.jpg' },
+          { title: 'Umfassende Digitalisierung der wichtigsten Vertriebsprozesse', category: 'Prozesse', image: '/imgi_12_Nachhaltige_Digitalisierung_Vertriebsprozesse-1200x600.jpg' },
+        ].map((erfolg) => (
+          <a href="/erfolge" class="group bg-white rounded-2xl overflow-hidden card-hover glow border border-gray-100/80">
+            <div class="aspect-[16/10] overflow-hidden">
+              <img src={erfolg.image} alt={erfolg.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy" />
+            </div>
+            <div class="p-6">
+              <span class="inline-block px-3 py-1 bg-accent/10 text-accent text-xs font-semibold rounded-full mb-3">{erfolg.category}</span>
+              <h3 class="text-lg font-bold text-primary mb-3 group-hover:text-accent transition-colors duration-300">{erfolg.title}</h3>
+              <div class="flex items-center text-accent font-semibold text-sm">
+                Details
+                <Icon name="lucide:arrow-right" class="w-4 h-4 ml-2 group-hover:translate-x-2 transition-transform" />
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 Gründe für mpcg -->
+  <section class="section-padding bg-primary text-white relative overflow-hidden grain">
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+      <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-accent/[0.06] rounded-full blur-[120px]"></div>
+      <div class="absolute bottom-0 left-0 w-[300px] h-[300px] bg-accent-light/[0.04] rounded-full blur-[80px]"></div>
+    </div>
+    <div class="container-custom relative">
+      <div class="text-center mb-16 fade-in">
+        <span class="tag tag-white mb-6">4 Gründe für mpcg</span>
+        <h2 class="text-3xl md:text-5xl font-extrabold tracking-tight">Wir sind Ihr Partner</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto fade-in">
+        {[
+          { icon: 'lucide:users', title: 'Das Beste beider Welten', text: 'Unser hoch motiviertes Team aus kreativen Digital Natives und praxiserfahrenen Senior Experts vereint das Beste beider Welten: frisches Wissen, innovative Ideen und digitale Exzellenz kombiniert mit langjähriger, unternehmerischer Erfahrung und analoger Bewährtheit.' },
+          { icon: 'lucide:rocket', title: 'Strategie & Umsetzung', text: 'Ein Projekt ist erst dann erfolgreich, wenn es auch erfolgreich umgesetzt ist. Daher entwickeln wir nicht nur zukunftsweisende Strategien, sondern sorgen auch dafür, dass sie erfolgreich umgesetzt werden. Die vielen Herausforderungen der Umsetzung kennen wir daher genau.' },
+          { icon: 'lucide:lightbulb', title: 'Out-of-the-box Ansätze', text: 'Wir haben keine „one-fits-all"-Herangehensweise, sondern entwickeln individuelle Lösungen für unsere Kunden. Dabei denken wir abseits von gängigen Schemata, entwickeln innovative Ideen, nutzen Design Thinking Methoden und treffen damit fast immer genau ins Ziel.' },
+          { icon: 'lucide:handshake', title: 'Keine Schlaumeier-Beratung', text: 'Wir arbeiten immer auf Augenhöhe mit unseren Kunden zusammen und werden so selbst zu einem aktiven Teil der Teams, mit denen wir zusammenarbeiten. Dabei schaffen wir es auch die alt-eingesessenen Mitarbeiter mitzureißen, die oft keine Veränderungen mittragen wollen.' },
+        ].map((item) => (
+          <div class="glass-dark rounded-2xl p-8 hover:bg-white/[0.08] transition-all duration-500 hover:border-white/15">
+            <Icon name={item.icon} class="w-8 h-8 text-accent-light mb-4" />
+            <h3 class="text-xl font-bold mb-3">{item.title}</h3>
+            <p class="text-gray-300 leading-relaxed text-sm">{item.text}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Insights -->
+  <section class="section-padding bg-white">
+    <div class="container-custom">
+      <div class="flex flex-col md:flex-row items-start md:items-end justify-between mb-16 gap-6 fade-in">
+        <div>
+          <span class="section-label">Insights</span>
+          <h2 class="text-3xl md:text-5xl font-extrabold text-primary tracking-tight">Aktuelle Themen und Trends</h2>
+        </div>
+        <a href="/insights" class="btn-secondary shrink-0">Alle Insights</a>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 fade-in">
+        {[
+          { title: 'Die acht wichtigsten Steuerungsfaktoren im B2B-Vertrieb', excerpt: 'Der B2B-Vertrieb ist seit jeher die Königsklasse im Vertrieb. Und die Vertriebssteuerung im dreistufigen Vertrieb ist die Paradedisziplin. Durch die dreistufige Struktur des B2B-Handels in Deutschland hat die Vertriebssteuerung weder direkten Durchgriff auf seine Zielkunden noch auf den Endkunden.', category: 'Sales', image: '/imgi_13_E2_Mehr-Sales_I1_Containterschiff_Steuerungsfaktoren.jpg-1200x600.jpg' },
+          { title: 'Enabling Change – Transformation ist mehr als nur Digitalisierung', excerpt: 'Die digitale Transformation ist der einflussreichste Megatrend unserer Zeit. Viele Unternehmen sind bei der Implementierung neuer Technologien schon weit, doch allein reicht das für eine erfolgreiche Umsetzung nicht.', category: 'Organisation', image: '/imgi_14_Agile_Organisation_wandelnde_Maerkte-1200x600.jpg' },
+        ].map((insight) => (
+          <a href="/insights" class="group bg-white rounded-2xl overflow-hidden card-hover glow border border-gray-100/80">
+            <div class="aspect-[16/10] overflow-hidden">
+              <img src={insight.image} alt={insight.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy" />
+            </div>
+            <div class="p-6">
+              <span class="inline-block px-3 py-1 bg-accent/10 text-accent text-xs font-semibold rounded-full mb-3">{insight.category}</span>
+              <h3 class="text-lg font-bold text-primary mb-3 group-hover:text-accent transition-colors">{insight.title}</h3>
+              <p class="text-text-light text-sm leading-relaxed mb-4">{insight.excerpt}</p>
+              <span class="text-accent font-semibold text-sm flex items-center">
+                Weiterlesen
+                <Icon name="lucide:arrow-right" class="w-4 h-4 ml-2 group-hover:translate-x-2 transition-transform" />
+              </span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- White Paper -->
+  <section class="section-padding bg-surface">
+    <div class="container-custom fade-in">
+      <WhitepaperCard
+        title="Potenziale für mehr Nachhaltigkeit in Ihrem Unternehmen effizient umsetzen"
+        description="Nachhaltigkeit ist essenziell für Unternehmen und umfasst ökonomische, ökologische und soziale Dimensionen. Unternehmen müssen Strategien entwickeln, um nachhaltig zu handeln und den Anforderungen von Politik, Stakeholdern und Markt gerecht zu werden. Die Hotspot-Analyse hilft, Nachhaltigkeitsprobleme in der Lieferkette zu identifizieren und zielgerichtete Maßnahmen zur Verbesserung der Nachhaltigkeitsbilanz zu entwickeln."
+        image="/imgi_11_White-Paper-Hotspot-Analyse-Nachhaltig-erfolgreich-wachsen-1-1200x600.png"
+        downloadHref="/kontakt"
+      />
+    </div>
+  </section>
+
+  <!-- Gender Hinweis -->
+  <section class="py-12 bg-white">
+    <div class="container-custom">
+      <div class="max-w-3xl mx-auto text-center fade-in">
+        <h3 class="text-lg font-bold text-primary mb-3">Gender Hinweis</h3>
+        <p class="text-text-light text-sm leading-relaxed">
+          Vielfalt, Chancengleichheit und Inklusion stehen bei uns im Unternehmen an oberster Stelle. Falls Sie an mancher Stelle das generische Maskulin feststellen, dient dies ausschließlich der Lesbarkeit. <a href="/wer-wir-sind" class="text-accent hover:underline">Diversity bei mpcg.</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+</Layout>

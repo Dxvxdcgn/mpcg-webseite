@@ -1,0 +1,43 @@
+---
+import { Icon } from 'astro-icon/components';
+
+interface Props {
+  title: string;
+  description: string;
+  icon: string;
+  href: string;
+  image?: string;
+}
+
+const { title, description, icon, href, image } = Astro.props;
+---
+
+<a href={href} class="group block bg-white rounded-2xl card-hover glow border border-gray-100/80 relative overflow-hidden">
+  {image && (
+    <div class="aspect-[16/9] overflow-hidden relative">
+      <img src={image} alt={title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy" />
+      <div class="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+    </div>
+  )}
+
+  <div class="p-7 relative">
+    <div class="relative">
+      <div class="w-11 h-11 bg-accent/8 rounded-xl flex items-center justify-center mb-5 group-hover:bg-accent group-hover:scale-105 transition-all duration-500">
+        <Icon name={icon} class="w-5 h-5 text-accent group-hover:text-white transition-colors duration-500" />
+      </div>
+
+      <h3 class="text-lg font-bold text-primary mb-2.5 group-hover:text-accent transition-colors duration-300 tracking-tight">
+        {title}
+      </h3>
+
+      <p class="text-text-light text-sm leading-relaxed mb-5">
+        {description}
+      </p>
+
+      <div class="flex items-center text-accent font-semibold text-sm">
+        <span>Mehr erfahren</span>
+        <Icon name="lucide:arrow-right" class="w-4 h-4 ml-2 group-hover:translate-x-2 transition-transform duration-300" />
+      </div>
+    </div>
+  </div>
+</a>
